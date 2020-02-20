@@ -1,0 +1,132 @@
+<?php include_once '../includes/component-header.php'?>
+<div class="content content-components">
+      <div class="container">
+        <ol class="breadcrumb df-breadcrumbs mg-b-10">
+          <li class="breadcrumb-item"><a href="#">Components</a></li>
+          <li class="breadcrumb-item"><a href="#">UI Elements</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Media Object</li>
+        </ol>
+
+        <h1 class="df-title">Media Object</h1>
+        <p class="df-lead">Construct highly repetitive components like blog comments, tweets, and the like. Read the <a href="https://getbootstrap.com/docs/4.2/components/media-object/" target="_blank">Official Bootstrap Documentation</a> for a full list of instructions and other options.</p>
+
+        <hr class="mg-y-40" />
+
+        <h4 id="section1" class="mg-b-10">Basic Example</h4>
+        <p class="mg-b-30">Helps build complex and repetitive components where some media is positioned alongside content that doesn’t wrap around said media. Plus, it does this with only two required classes thanks to flexbox.</p>
+
+        <div data-label="Example" class="df-example">
+          <div class="media d-block d-sm-flex">
+            <img src="https://via.placeholder.com/640x426" class="wd-100p wd-sm-200 rounded mg-sm-r-20 mg-b-20 mg-sm-b-0" alt="" />
+            <div class="media-body">
+              <h5 class="mg-b-15 tx-inverse">Media heading</h5>
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            </div>
+          </div>
+        </div>
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section2" class="mg-b-10">Nesting</h4>
+        <p class="mg-b-30">Media objects can be infinitely nested, though we suggest you stop at some point. Place nested <code>.media</code> within the <code>.media-body</code> of a parent media object.</p>
+
+        <div data-label="Example" class="df-example">
+          <div class="media d-block d-sm-flex">
+            <img src="https://via.placeholder.com/640x426" class="wd-100p wd-sm-100 rounded mg-sm-r-20 mg-b-20 mg-sm-b-0" alt="" />
+            <div class="media-body">
+              <h5 class="mg-b-15 tx-inverse">Media heading</h5>
+              <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+
+              <div class="media d-block d-sm-flex mg-t-25">
+                <img src="https://via.placeholder.com/640x426" class="wd-100p wd-sm-100 rounded mg-sm-r-20 mg-b-20 mg-sm-b-0" alt="" />
+                <div class="media-body">
+                  <h5 class="mg-b-15 tx-inverse">Media heading</h5>
+                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section3" class="mg-b-10">Alignment</h4>
+        <p class="mg-b-30">Media in a media object can be aligned with flexbox utilities to the top (default), middle, or end of your <code>.media-body</code> content.</p>
+
+        <div data-label="Example" class="df-example">
+          <div class="media d-block d-sm-flex">
+            <img src="https://via.placeholder.com/640x426" class="wd-100p wd-sm-100 rounded mg-sm-r-20 mg-b-20 mg-sm-b-0 align-self-center" alt="" />
+            <div class="media-body">
+              <h5 class="mg-b-15 tx-inverse">Media heading</h5>
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            </div>
+          </div>
+        </div>
+        <div data-label="Example" class="df-example mg-t-25">
+          <div class="media d-block d-sm-flex">
+            <img src="https://via.placeholder.com/640x426" class="wd-100p wd-sm-100 rounded mg-sm-r-20 mg-b-20 mg-sm-b-0 align-self-end" alt="" />
+            <div class="media-body">
+              <h5 class="mg-b-15 tx-inverse">Media heading</h5>
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            </div>
+          </div>
+        </div>
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section4" class="mg-b-10">Order</h4>
+        <p class="mg-b-30">Change the order of content in media objects by modifying the HTML itself, or by adding some custom flexbox CSS to set the order property (to an integer of your choosing).</p>
+
+        <div data-label="Example" class="df-example">
+          <div class="media d-block d-sm-flex">
+            <div class="media-body">
+              <h5 class="mg-b-15 tx-inverse">Media heading</h5>
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            </div>
+            <img src="https://via.placeholder.com/640x426" class="wd-100p wd-sm-200 rounded mg-sm-l-20 mg-t-20 mg-sm-t-0" alt="" />
+          </div>
+        </div>
+
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section5" class="mg-b-10">Media List</h4>
+        <p class="mg-b-30">Because the media object has so few structural requirements, you can also use these classes on list HTML elements.</p>
+
+        <div data-label="Example" class="df-example">
+          <ul class="list-unstyled">
+            <li class="media d-block d-sm-flex">
+              <img src="https://via.placeholder.com/640x426" class="wd-100p wd-sm-100 rounded mg-sm-r-20 mg-b-20 mg-sm-b-0" alt="" />
+              <div class="media-body">
+                <h5 class="mg-b-10 tx-inverse">Media heading</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+            <li class="media  d-block d-sm-flex mg-t-25">
+              <img src="https://via.placeholder.com/640x426" class="wd-100p wd-sm-100 rounded mg-sm-r-20 mg-b-20 mg-sm-b-0" alt="" />
+              <div class="media-body">
+                <h5 class="mg-b-10 tx-inverse">Media heading</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+            <li class="media  d-block d-sm-flex mg-t-25">
+              <img src="https://via.placeholder.com/640x426" class="wd-100p wd-sm-100 rounded mg-sm-r-20 mg-b-20 mg-sm-b-0" alt="" />
+              <div class="media-body">
+                <h5 class="mg-b-10 tx-inverse">Media heading</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <pre></pre>
+
+        
+
+      </div>
+    </div>
+<?php include_once '../includes/component-footer.php'?>

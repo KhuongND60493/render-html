@@ -1,0 +1,180 @@
+<?php include_once '../includes/component-header.php'?>
+<div class="content content-components">
+      <div class="container">
+        <ol class="breadcrumb df-breadcrumbs mg-b-10">
+          <li class="breadcrumb-item"><a href="#">Components</a></li>
+          <li class="breadcrumb-item"><a href="#">UI Elements</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Navbar</li>
+        </ol>
+
+        <h1 class="df-title">Navbar</h1>
+        <p class="df-lead">Responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin. Read the <a href="https://getbootstrap.com/docs/4.2/components/navbar/" target="_blank">Official Bootstrap Documentation</a> for a full list of instructions and other options.</p>
+
+        <hr class="mg-y-40" />
+
+        <h4 id="section1" class="mg-b-10">Basic Navbar</h4>
+        <p class="mg-b-30">Here’s an example of all the sub-components included in a responsive light-themed navbar that automatically collapses at the large breakpoint.</p>
+
+        <div data-label="Example" class="df-example">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light bd">
+            <a class="navbar-brand tx-bold tx-spacing--2 order-1" href="#">LOGO</a>
+            <button class="navbar-toggler order-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <i data-feather="menu" class="wd-20 ht-20"></i>
+            </button>
+
+            <div class="collapse navbar-collapse order-2" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+              <form class="form-inline mg-t-10 mg-lg-0">
+                <input class="form-control tx-13 wd-150-f mg-r-5" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-primary" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+        </div>
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section2" class="mg-b-10">Brand Content</h4>
+        <p class="mg-b-30">The <code>.navbar-brand</code> can be applied to most elements, but an anchor works best as some elements might require utility classes or custom styles.</p>
+
+        <div data-label="Example" class="df-example">
+          <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand tx-bold tx-spacing--2" href="#">LOGO</a>
+          </nav>
+        </div>
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section3" class="mg-b-10">Nav Content</h4>
+        <p class="mg-b-30">Navbar navigation links build on our nav options with their own modifier class and require the use of toggler classes for proper responsive styling. </p>
+
+        <div data-label="Example" class="df-example">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light bd">
+            <a class="navbar-brand tx-bold tx-spacing--2" href="#">LOGO</a>
+            <button class="navbar-toggler order-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <i data-feather="menu" class="wd-20 ht-20"></i>
+            </button>
+            <div class="collapse navbar-collapse order-2" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section4" class="mg-b-10">Form Content</h4>
+        <p class="mg-b-30">Place various form controls and components within a navbar.</p>
+
+        <div data-label="Example" class="df-example">
+          <nav class="navbar navbar-light bg-light bd">
+            <form class="form-inline mg-l-auto">
+              <input class="form-control mg-r-5 tx-13" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn btn-primary mg-t-10 mg-sm-t-0" type="submit">Search</button>
+            </form>
+          </nav>
+        </div>
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section5" class="mg-b-10">Text Content</h4>
+        <p class="mg-b-30">Navbars may contain bits of text with the help of <code>.navbar-text</code>. This class adjusts vertical alignment and horizontal spacing for strings of text.</p>
+
+        <div data-label="Example" class="df-example">
+          <nav class="navbar navbar-light bg-light">
+            <span class="navbar-text">
+              Navbar text with an inline element
+            </span>
+          </nav>
+        </div>
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section6" class="mg-b-10">Color Scheme</h4>
+        <p class="mg-b-30"></p>
+
+        <div data-label="Example" class="df-example">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand tx-bold tx-spacing--2 order-1" href="#">LOGO</a>
+            <button class="navbar-toggler order-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+              <i data-feather="menu" class="wd-20 ht-20"></i>
+            </button>
+
+            <div class="collapse navbar-collapse order-2" id="navbarSupportedContent2">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+              <form class="form-inline mg-t-10 mg-lg-0">
+                <input class="form-control bd-0 tx-13 wd-150-f mg-r-5" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-primary" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+
+          <nav class="navbar navbar-expand-lg navbar-dark bg-primary mg-t-10">
+            <a class="navbar-brand tx-bold tx-spacing--2 order-1" href="#">LOGO</a>
+            <button class="navbar-toggler order-2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent3" aria-controls="navbarSupportedContent3" aria-expanded="false" aria-label="Toggle navigation">
+              <i data-feather="menu" class="wd-20 ht-20"></i>
+            </button>
+
+            <div class="collapse navbar-collapse order-2" id="navbarSupportedContent3">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+              <form class="form-inline mg-t-10 mg-lg-0">
+                <input class="form-control bd-0 tx-13 wd-150-f mg-r-5" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn btn-dark" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+        </div>
+        <pre></pre>
+
+        
+
+      </div>
+    </div>
+<?php include_once '../includes/component-footer.php'?>

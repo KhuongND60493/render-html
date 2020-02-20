@@ -1,0 +1,181 @@
+<?php include_once '../includes/component-header.php'?>
+<div class="content content-components">
+      <div class="container">
+        <ol class="breadcrumb df-breadcrumbs mg-b-10">
+          <li class="breadcrumb-item"><a href="#">Components</a></li>
+          <li class="breadcrumb-item"><a href="#">UI Elements</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Navs</li>
+        </ol>
+
+        <h1 class="df-title">Navs</h1>
+        <p class="df-lead">Documentation and examples for how to use Bootstrap’s included navigation components. Read the <a href="https://getbootstrap.com/docs/4.2/components/navs/" target="_blank">Official Bootstrap Documentation</a> for a full list of instructions and other options.</p>
+
+        <hr class="mg-y-40" />
+
+        <h4 id="section1" class="mg-b-10">Basic Example</h4>
+        <p class="mg-b-30">Navigation available in Bootstrap share general markup and styles, from the base .nav class to the active and disabled states. Swap modifier classes to switch between each style.</p>
+
+        <div data-label="Example" class="df-example">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section2" class="mg-b-10">Horizontal Alignment</h4>
+        <p class="mg-b-30">Change the horizontal alignment of your nav with flexbox utilities. By default, navs are left-aligned, but you can easily change them to center or right aligned.</p>
+
+        <div data-label="Example" class="df-example">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+
+          <hr />
+
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section3" class="mg-b-10">Vertical Nav</h4>
+        <p class="mg-b-30">Stack your navigation by changing the flex item direction with the <code>.flex-column</code> utility.</p>
+
+        <div data-label="Example" class="df-example">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section4" class="mg-b-10">Pills</h4>
+        <p class="mg-b-30">Take that same HTML, but add <code>.nav-pills</code> class to it. Same goes to vertical nav.</p>
+
+        <div data-label="Example" class="df-example">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h5 id="section5" class="mg-b-10">Fill & Justify</h5>
+        <p class="mg-b-30">Force your nav’s contents to extend the full available width one of two modifier classes.</p>
+
+        <div data-label="Example" class="df-example">
+          <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section6" class="mg-b-10">Using Dropdown</h4>
+        <p class="mg-b-30">Add dropdown menu to any of the item of the nav.</p>
+
+        <div data-label="Example" class="df-example">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="dropdown">About <i data-feather="chevron-down" class="wd-15 ht-15"></i></a>
+              <div class="dropdown-menu tx-13">
+                <a href="" class="dropdown-item">Vision</a>
+                <a href="" class="dropdown-item">Mission</a>
+                <a href="" class="dropdown-item">Goal</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section7" class="mg-b-10">Inside Dropdown</h4>
+        <p class="mg-b-30">Add nav inside of dropdown menu.</p>
+
+        <div data-label="Example" class="df-example">
+          <div class="dropdown">
+            <a href="" class="btn btn-primary d-inline-flex align-items-center" data-toggle="dropdown"><span class="mg-r-5">Dropdown Menu</span> <i data-feather="chevron-down" class="wd-15 ht-15"></i></a>
+            <div class="dropdown-menu tx-13">
+              <ul class="nav nav-pills flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <pre></pre>
+
+        
+
+      </div>
+    </div>
+<?php include_once '../includes/component-footer.php'?>

@@ -1,0 +1,562 @@
+<?php include_once '../includes/component-header.php'?>
+<div class="content content-components">
+      <div class="container">
+        <ol class="breadcrumb df-breadcrumbs mg-b-10">
+          <li class="breadcrumb-item"><a href="#">Components</a></li>
+          <li class="breadcrumb-item"><a href="#">UI Elements</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Table Basic</li>
+        </ol>
+
+        <h1 class="df-title">Table Basic</h1>
+        <p class="df-lead">Documentation and examples for opt-in styling of tables (given their prevalent use in JavaScript plugins) with Bootstrap. Read the <a href="https://getbootstrap.com/docs/4.2/content/tables/" target="_blank">Official Bootstrap Documentation</a> for a full list of instructions and other options.</p>
+
+        <hr class="mg-y-40" />
+
+        <h4 id="section1" class="mg-b-10">Basic Example</h4>
+        <p class="mg-b-30">Using the most basic table markup, here’s how <code>.table</code> based tables look in Bootstrap. All table styles are inherited in Bootstrap 4, meaning any nested tables will be styled in the same manner as the parent.</p>
+
+        <div data-label="Example" class="df-example demo-table">
+          <div class="table-responsive">
+            <table class="table mg-b-0">
+              <thead>
+                <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Job Title</th>
+                  <th scope="col">Degree</th>
+                  <th scope="col">Salary</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Adrian Monino</td>
+                  <td>Front-End Engineer</td>
+                  <td>Computer Science</td>
+                  <td>$120,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Socrates Itumay</td>
+                  <td>Software Engineer</td>
+                  <td>Computer Engineering</td>
+                  <td>$150,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Reynante Labares</td>
+                  <td>Product Manager</td>
+                  <td>Business Management</td>
+                  <td>$250,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Hamza Macasindil</td>
+                  <td>Software Engineer</td>
+                  <td>Computer Engineering</td>
+                  <td>$140,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Roven Galeon</td>
+                  <td>Project Manager</td>
+                  <td>Accountancy</td>
+                  <td>$160,000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <pre></pre>
+
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section2" class="mg-b-10">Table Head Options</h4>
+        <p class="mg-b-30">Similar to tables and dark tables, use the modifier classes <code>.thead-primary</code> or <code>.thead-dark</code> to make colored head.</p>
+
+        <div data-label="Example" class="df-example demo-table">
+          <div class="table-responsive">
+            <table class="table mg-b-0">
+              <thead class="thead-primary">
+                <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Job Title</th>
+                  <th scope="col">Degree</th>
+                  <th scope="col">Salary</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Adrian Monino</td>
+                  <td>Front-End Engineer</td>
+                  <td>Computer Science</td>
+                  <td>$120,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Socrates Itumay</td>
+                  <td>Software Engineer</td>
+                  <td>Computer Engineering</td>
+                  <td>$150,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Reynante Labares</td>
+                  <td>Product Manager</td>
+                  <td>Business Management</td>
+                  <td>$250,000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <pre></pre>
+
+        <div class="table-responsive mg-t-25">
+          <table class="table table-components">
+            <thead>
+              <tr>
+                <th class="wd-40p">Class Reference</th>
+                <th class="wd-60p">Color</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>class="thead-[color]"</td>
+                <td>primary | secondary | success | danger | warning | info | light | dark</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <hr class="mg-y-40" />
+
+        <h4 id="section3" class="mg-b-10">Striped Rows</h4>
+        <p class="mg-b-30">Use <code>.table-striped</code> to add zebra-striping to any table row within the tbody.</p>
+
+        <div data-label="Example" class="df-example demo-table">
+          <div class="table-responsive">
+            <table class="table table-striped mg-b-0">
+              <thead>
+                <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Job Title</th>
+                  <th scope="col">Degree</th>
+                  <th scope="col">Salary</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Adrian Monino</td>
+                  <td>Front-End Engineer</td>
+                  <td>Computer Science</td>
+                  <td>$120,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Socrates Itumay</td>
+                  <td>Software Engineer</td>
+                  <td>Computer Engineering</td>
+                  <td>$150,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Reynante Labares</td>
+                  <td>Product Manager</td>
+                  <td>Business Management</td>
+                  <td>$250,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Hamza Macasindil</td>
+                  <td>Software Engineer</td>
+                  <td>Computer Engineering</td>
+                  <td>$140,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Roven Galeon</td>
+                  <td>Project Manager</td>
+                  <td>Accountancy</td>
+                  <td>$160,000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <pre></pre>
+
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section4" class="mg-b-10">Bordered Table</h4>
+        <p class="mg-b-30">Add <code>.table-bordered</code> for borders on all sides of the table and cells.</p>
+
+        <div data-label="Example" class="df-example demo-table">
+          <div class="table-responsive">
+            <table class="table table-bordered mg-b-0">
+              <thead>
+                <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Job Title</th>
+                  <th scope="col">Degree</th>
+                  <th scope="col">Salary</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Adrian Monino</td>
+                  <td>Front-End Engineer</td>
+                  <td>Computer Science</td>
+                  <td>$120,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Socrates Itumay</td>
+                  <td>Software Engineer</td>
+                  <td>Computer Engineering</td>
+                  <td>$150,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Reynante Labares</td>
+                  <td>Product Manager</td>
+                  <td>Business Management</td>
+                  <td>$250,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Hamza Macasindil</td>
+                  <td>Software Engineer</td>
+                  <td>Computer Engineering</td>
+                  <td>$140,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Roven Galeon</td>
+                  <td>Project Manager</td>
+                  <td>Accountancy</td>
+                  <td>$160,000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section5" class="mg-b-10">Hoverable Rows</h4>
+        <p class="mg-b-30">Add <code>.table-hover</code> to enable a hover state on table rows within a tbody.</p>
+
+        <div data-label="Example" class="df-example demo-table">
+          <div class="table-responsive">
+            <table class="table table-hover mg-b-0">
+              <thead>
+                <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Job Title</th>
+                  <th scope="col">Degree</th>
+                  <th scope="col">Salary</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Adrian Monino</td>
+                  <td>Front-End Engineer</td>
+                  <td>Computer Science</td>
+                  <td>$120,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Socrates Itumay</td>
+                  <td>Software Engineer</td>
+                  <td>Computer Engineering</td>
+                  <td>$150,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Reynante Labares</td>
+                  <td>Product Manager</td>
+                  <td>Business Management</td>
+                  <td>$250,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Hamza Macasindil</td>
+                  <td>Software Engineer</td>
+                  <td>Computer Engineering</td>
+                  <td>$140,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Roven Galeon</td>
+                  <td>Project Manager</td>
+                  <td>Accountancy</td>
+                  <td>$160,000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section6" class="mg-b-10">Compact Table</h4>
+        <p class="mg-b-30">Add <code>.table-sm</code> to make tables more compact by cutting cell padding in half.</p>
+
+        <div data-label="Example" class="df-example demo-table">
+          <div class="table-responsive">
+            <table class="table table-sm mg-b-0">
+              <thead>
+                <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Job Title</th>
+                  <th scope="col">Degree</th>
+                  <th scope="col">Salary</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Adrian Monino</td>
+                  <td>Front-End Engineer</td>
+                  <td>Computer Science</td>
+                  <td>$120,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Socrates Itumay</td>
+                  <td>Software Engineer</td>
+                  <td>Computer Engineering</td>
+                  <td>$150,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Reynante Labares</td>
+                  <td>Product Manager</td>
+                  <td>Business Management</td>
+                  <td>$250,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Hamza Macasindil</td>
+                  <td>Software Engineer</td>
+                  <td>Computer Engineering</td>
+                  <td>$140,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Roven Galeon</td>
+                  <td>Project Manager</td>
+                  <td>Accountancy</td>
+                  <td>$160,000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section7" class="mg-b-10">Colored Variations</h4>
+        <p class="mg-b-30">Use contextual classes to color entire table.</p>
+
+        <div data-label="Example" class="df-example demo-table">
+          <div class="table-responsive">
+            <table class="table table-primary table-hover table-striped mg-b-0">
+              <thead>
+                <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Job Title</th>
+                  <th scope="col">Degree</th>
+                  <th scope="col">Salary</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Adrian Monino</td>
+                  <td>Front-End Engineer</td>
+                  <td>Computer Science</td>
+                  <td>$120,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Socrates Itumay</td>
+                  <td>Software Engineer</td>
+                  <td>Computer Engineering</td>
+                  <td>$150,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Reynante Labares</td>
+                  <td>Product Manager</td>
+                  <td>Business Management</td>
+                  <td>$250,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Hamza Macasindil</td>
+                  <td>Software Engineer</td>
+                  <td>Computer Engineering</td>
+                  <td>$140,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Roven Galeon</td>
+                  <td>Project Manager</td>
+                  <td>Accountancy</td>
+                  <td>$160,000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="table-responsive mg-t-20">
+            <table class="table table-dark table-hover table-striped mg-b-0">
+              <thead>
+                <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Job Title</th>
+                  <th scope="col">Degree</th>
+                  <th scope="col">Salary</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Adrian Monino</td>
+                  <td>Front-End Engineer</td>
+                  <td>Computer Science</td>
+                  <td>$120,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Socrates Itumay</td>
+                  <td>Software Engineer</td>
+                  <td>Computer Engineering</td>
+                  <td>$150,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Reynante Labares</td>
+                  <td>Product Manager</td>
+                  <td>Business Management</td>
+                  <td>$250,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Hamza Macasindil</td>
+                  <td>Software Engineer</td>
+                  <td>Computer Engineering</td>
+                  <td>$140,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Roven Galeon</td>
+                  <td>Project Manager</td>
+                  <td>Accountancy</td>
+                  <td>$160,000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <pre></pre>
+
+        <div class="table-responsive mg-t-25">
+          <table class="table table-components">
+            <thead>
+              <tr>
+                <th class="wd-40p">Class Reference</th>
+                <th class="wd-60p">Color</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>class="table table-[color]"</td>
+                <td>primary | secondary | success | danger | warning | info | light | dark</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <hr class="mg-y-40" />
+
+        <h4 id="section8" class="mg-b-10">Responsive Table</h4>
+        <p class="mg-b-30">Responsive tables allow tables to be scrolled horizontally with ease. Make any table responsive across all viewports by wrapping a <code>.table</code> with <code>.table-responsive.</code></p>
+
+        <div data-label="Example" class="df-example demo-table">
+          <div class="table-responsive">
+            <table class="table mg-b-0">
+              <thead>
+                <tr>
+                  <th scope="col">ID</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Job Title</th>
+                  <th scope="col">Degree</th>
+                  <th scope="col">Salary</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Adrian Monino</td>
+                  <td>Front-End Engineer</td>
+                  <td>Computer Science</td>
+                  <td>$120,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Socrates Itumay</td>
+                  <td>Software Engineer</td>
+                  <td>Computer Engineering</td>
+                  <td>$150,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>Reynante Labares</td>
+                  <td>Product Manager</td>
+                  <td>Business Management</td>
+                  <td>$250,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">4</th>
+                  <td>Hamza Macasindil</td>
+                  <td>Software Engineer</td>
+                  <td>Computer Engineering</td>
+                  <td>$140,000</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>Roven Galeon</td>
+                  <td>Project Manager</td>
+                  <td>Accountancy</td>
+                  <td>$160,000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <pre></pre>
+
+        
+
+      </div>
+    </div>
+<?php include_once '../includes/component-footer.php'?>

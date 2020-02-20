@@ -1,0 +1,253 @@
+<?php include_once '../includes/component-header.php'?>
+<div class="content content-components">
+      <div class="container">
+        <ol class="breadcrumb df-breadcrumbs mg-b-10">
+          <li class="breadcrumb-item"><a href="#">Components</a></li>
+          <li class="breadcrumb-item"><a href="#">UI Elements</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Marker</li>
+        </ol>
+
+        <h1 class="df-title">Marker</h1>
+        <p class="df-lead">A marker is a type of label that can be attached in any images or cards component with the help of utilities/helper classes.</p>
+
+        <hr class="mg-y-40" />
+
+        <h4 id="section1" class="mg-b-10">Basic Example</h4>
+        <p class="mg-b-30">The most basic marker that is attached to image and card component.</p>
+
+        <div class="alert alert-info tx-14 mg-b-35">
+          A marker must be positioned inside a container with <code>position: relative</code> by adding a helper class <code>.pos-relative</code> to display properly. You will also need to add <code>overflow:hidden</code> to the container by adding helper class <code>.overflow-hidden</code> to produce a rounded label.
+        </div>
+
+        <div data-label="Example" class="df-example">
+          <div class="row row-sm">
+            <div class="col-sm">
+              <div class="pos-relative">
+                <div class="marker pos-absolute t-10 l-10">Image Marker</div>
+                <img src="https://via.placeholder.com/640x426" class="img-fluid rounded" alt="" />
+              </div>
+            </div>
+            <div class="col-sm mg-t-10 mg-sm-t-0">
+              <div class="card card-body tx-white bg-primary shadow-none ht-100p overflow-hidden">
+                <div class="marker pos-absolute t-10 l-10">Card Marker</div>
+                <h6 class="mg-b-15 mg-t-30">What does free royalty mean?</h6>
+                <p class="mg-b-0">Royalty free means you just need to pay for rights to use the item once per end product.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section2" class="mg-b-10">Positioning</h4>
+        <p class="mg-b-30">A marker can change it's position with the help of position helper classes.</p>
+
+        <div data-label="Example" class="df-example">
+          <div class="row row-sm">
+            <div class="col-sm-6">
+              <div class="pos-relative">
+                <div class="marker pos-absolute t-10 l-10">Top Left</div>
+                <img src="https://via.placeholder.com/640x426" class="img-fluid rounded" alt="" />
+              </div>
+            </div>
+            <div class="col-sm-6 mg-t-10 mg-sm-t-0">
+              <div class="pos-relative">
+                <div class="marker pos-absolute t-10 r-10">Top Right</div>
+                <img src="https://via.placeholder.com/640x426" class="img-fluid rounded" alt="" />
+              </div>
+            </div>
+            <div class="col-sm-6 mg-t-10 mg-sm-t-20">
+              <div class="pos-relative">
+                <div class="marker pos-absolute b-10 l-10">Bottom Left</div>
+                <img src="https://via.placeholder.com/640x426" class="img-fluid rounded" alt="" />
+              </div>
+            </div>
+            <div class="col-sm-6 mg-t-10 mg-sm-t-20">
+              <div class="pos-relative">
+                <div class="marker pos-absolute b-10 r-10">Bottom Right</div>
+                <img src="https://via.placeholder.com/640x426" class="img-fluid rounded" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section3" class="mg-b-10">Icon Marker</h4>
+        <p class="mg-b-30">A marker can be an icon with the use of class <code>.marker-icon</code>.</p>
+
+        <div data-label="Example" class="df-example">
+          <div class="row row-sm">
+            <div class="col-sm">
+              <div class="pos-relative overflow-hidden rounded">
+                <div class="marker-icon marker-top-left pos-absolute t-0 l-0"><i data-feather="zap"></i></div>
+                <img src="https://via.placeholder.com/640x426" class="img-fluid" alt="" />
+              </div>
+            </div>
+            <div class="col-sm mg-t-10 mg-sm-t-0">
+              <div class="card card-body ht-100p overflow-hidden">
+                <div class="marker-icon marker-top-right pos-absolute t-0 r-0"><i data-feather="zap"></i></div>
+                <h6 class="mg-b-15 mg-t-30">What does free royalty mean?</h6>
+                <p class="mg-b-0">Royalty free means you just need to pay for rights to use the item once per end product.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section4" class="mg-b-10">Ribbon Marker</h4>
+        <p class="mg-b-30">A marker style variant like ribbon like in the example below.</p>
+
+        <div data-label="Example" class="df-example">
+          <div class="row row-sm">
+            <div class="col-sm-6">
+              <div class="card card-body shadow-none">
+                <div class="marker marker-ribbon pos-absolute t-10 l-0">Ribbon Marker</div>
+                <h6 class="mg-b-15 mg-t-30">What does free royalty mean?</h6>
+                <p class="mg-b-0">Royalty free means you just need to pay for rights to use the item once per end product.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 mg-t-10 mg-sm-t-0">
+              <div class="card card-body shadow-none">
+                <div class="marker marker-ribbon marker-top-right pos-absolute t-10 r-0">Ribbon Marker</div>
+                <h6 class="mg-b-15 mg-t-30">What does free royalty mean?</h6>
+                <p class="mg-b-0">Royalty free means you just need to pay for rights to use the item once per end product.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <pre></pre>
+
+        <hr class="mg-t-50 mg-b-40" />
+
+        <h4 id="section5" class="mg-b-10">Contextual Variations</h4>
+        <p class="mg-b-30">Add any of the below mentioned modifier classes to change the appearance of a marker. The example below uses border color utility class for card component and not part of the marker style.</p>
+
+        <div data-label="Example" class="df-example">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card card-body shadow-none bd-primary overflow-hidden">
+                <div class="marker-icon marker-primary pos-absolute t-0 l-0">
+                  <i data-feather="zap"></i>
+                </div>
+                <h6 class="mg-b-15 mg-t-30">What does free royalty mean?</h6>
+                <p class="mg-b-0">Royalty free means you just need to pay for rights to use the item once per end product.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 mg-t-10 mg-sm-t-0">
+              <div class="card card-body shadow-none bd-primary">
+                <div class="marker marker-ribbon marker-primary pos-absolute t-10 l-0">Ribbon Marker</div>
+                <h6 class="mg-b-15 mg-t-30">What does free royalty mean?</h6>
+                <p class="mg-b-0">Royalty free means you just need to pay for rights to use the item once per end product.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 mg-t-10 mg-sm-t-25">
+              <div class="card card-body shadow-none bd-gray-500 overflow-hidden">
+                <div class="marker-icon marker-secondary pos-absolute t-0 l-0">
+                  <i data-feather="zap"></i>
+                </div>
+                <h6 class="mg-b-15 mg-t-30">What does free royalty mean?</h6>
+                <p class="mg-b-0">Royalty free means you just need to pay for rights to use the item once per end product.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 mg-t-10 mg-sm-t-25">
+              <div class="card card-body shadow-none bd-gray-500">
+                <div class="marker marker-ribbon marker-secondary pos-absolute t-10 l-0">Ribbon Marker</div>
+                <h6 class="mg-b-15 mg-t-30">What does free royalty mean?</h6>
+                <p class="mg-b-0">Royalty free means you just need to pay for rights to use the item once per end product.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 mg-t-10 mg-sm-t-25">
+              <div class="card card-body shadow-none bd-success overflow-hidden">
+                <div class="marker-icon marker-success pos-absolute t-0 l-0">
+                  <i data-feather="zap"></i>
+                </div>
+                <h6 class="mg-b-15 mg-t-30">What does free royalty mean?</h6>
+                <p class="mg-b-0">Royalty free means you just need to pay for rights to use the item once per end product.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 mg-t-10 mg-sm-t-25">
+              <div class="card card-body shadow-none bd-success">
+                <div class="marker marker-ribbon marker-success pos-absolute t-10 l-0">Ribbon Marker</div>
+                <h6 class="mg-b-15 mg-t-30">What does free royalty mean?</h6>
+                <p class="mg-b-0">Royalty free means you just need to pay for rights to use the item once per end product.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 mg-t-10 mg-sm-t-25">
+              <div class="card card-body shadow-none bd-danger overflow-hidden">
+                <div class="marker-icon marker-danger pos-absolute t-0 l-0">
+                  <i data-feather="zap"></i>
+                </div>
+                <h6 class="mg-b-15 mg-t-30">What does free royalty mean?</h6>
+                <p class="mg-b-0">Royalty free means you just need to pay for rights to use the item once per end product.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 mg-t-10 mg-sm-t-25">
+              <div class="card card-body shadow-none bd-danger">
+                <div class="marker marker-ribbon marker-danger pos-absolute t-10 l-0">Ribbon Marker</div>
+                <h6 class="mg-b-15 mg-t-30">What does free royalty mean?</h6>
+                <p class="mg-b-0">Royalty free means you just need to pay for rights to use the item once per end product.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 mg-t-10 mg-sm-t-25">
+              <div class="card card-body shadow-none bd-warning overflow-hidden">
+                <div class="marker-icon marker-warning pos-absolute t-0 l-0">
+                  <i data-feather="zap"></i>
+                </div>
+                <h6 class="mg-b-15 mg-t-30">What does free royalty mean?</h6>
+                <p class="mg-b-0">Royalty free means you just need to pay for rights to use the item once per end product.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 mg-t-10 mg-sm-t-25">
+              <div class="card card-body shadow-none bd-warning">
+                <div class="marker marker-ribbon marker-warning pos-absolute t-10 l-0">Ribbon Marker</div>
+                <h6 class="mg-b-15 mg-t-30">What does free royalty mean?</h6>
+                <p class="mg-b-0">Royalty free means you just need to pay for rights to use the item once per end product.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 mg-t-10 mg-sm-t-25">
+              <div class="card card-body shadow-none bd-info overflow-hidden">
+                <div class="marker-icon marker-info pos-absolute t-0 l-0">
+                  <i data-feather="zap"></i>
+                </div>
+                <h6 class="mg-b-15 mg-t-30">What does free royalty mean?</h6>
+                <p class="mg-b-0">Royalty free means you just need to pay for rights to use the item once per end product.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 mg-t-10 mg-sm-t-25">
+              <div class="card card-body shadow-none bd-info">
+                <div class="marker marker-ribbon marker-info pos-absolute t-10 l-0">Ribbon Marker</div>
+                <h6 class="mg-b-15 mg-t-30">What does free royalty mean?</h6>
+                <p class="mg-b-0">Royalty free means you just need to pay for rights to use the item once per end product.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 mg-t-10 mg-sm-t-25">
+              <div class="card card-body shadow-none bd-dark overflow-hidden">
+                <div class="marker-icon marker-dark pos-absolute t-0 l-0">
+                  <i data-feather="zap"></i>
+                </div>
+                <h6 class="mg-b-15 mg-t-30">What does free royalty mean?</h6>
+                <p class="mg-b-0">Royalty free means you just need to pay for rights to use the item once per end product.</p>
+              </div>
+            </div>
+            <div class="col-sm-6 mg-t-10 mg-sm-t-25">
+              <div class="card card-body shadow-none bd-dark">
+                <div class="marker marker-ribbon marker-dark pos-absolute t-10 l-0">Ribbon Marker</div>
+                <h6 class="mg-b-15 mg-t-30">What does free royalty mean?</h6>
+                <p class="mg-b-0">Royalty free means you just need to pay for rights to use the item once per end product.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <pre></pre>
+
+        
+
+      </div>
+    </div>
+<?php include_once '../includes/component-footer.php'?>
