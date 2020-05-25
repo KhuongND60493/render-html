@@ -7,6 +7,12 @@ function Fail(reason) { this.reason = reason; };
 const isFail = x => (x && x.constructor) === Fail;
 const entry = config.folder;
 var re = new RegExp(config.special_char.join('|'), 'g');
+var dir = './publish';
+
+if (!fs.existsSync(dir)){
+    fs.mkdirSync(dir);
+}
+
 
 if (!fs.existsSync(entry)) {
     fs.mkdirSync(entry);

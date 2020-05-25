@@ -1,36 +1,34 @@
-var config = require('./data');
+
+var pretty = require('pretty');
 var fs = require('fs');
-const format = require('html-format');
 
-function Fail(reason) { this.reason = reason; };
-const isFail = x => (x && x.constructor) === Fail;
 
-const entry = config.folder;
-if (config.pages.length > 0) {
-    var promises = config.pages.map(element => {
-        return new Promise((resolve, reject) => {
-            const file = [__dirname,entry, element].join('/');
-            fs.readFile(file, 'utf8', function (err, html) { 
+function readFiles(dirname, onFileContent, onError) {
+    fs.readdir(dirname, function (err, filenames) {
+        if (err) {
+            onError(err);
+            return;
+        }
+        filenames.forEach(function (filename) {
+            fs.readFile(dirname + filename, 'utf-8', function (err, content) {
                 if (err) {
-                    reject(`cant read html`);
-                  }
-                fs.writeFile(file, format(html, ' '.repeat(4)), 'utf8', function (err) {
-                    if (err) reject(`cant format and write html`);
-                    resolve(file);
-                });
-            })
+                    onError(err);
+                    return;
+                }
+                onFileContent(filename, content);
+            });
         });
     });
-    Promise.all(promises)
-        .then(
-            results => {
-                const failed = results.filter(isFail);
-                if (failed.length !== 0) {
-                    console.log("Format fail");
-                } else {
-                    console.log('---------------------------- Format html successfully ----------------------------')
-                }
-            }
-        );
-
 }
+
+readFiles('resources/', function (filename, content) {
+    var html = pretty(content, { ocd: true });
+    fs.writeFile(`resources/${filename}`, html, 'utf8', function (err) {
+        if (err) reject(`cant format and write html`);
+    })
+
+}, function (err) {
+    throw err;
+});
+
+console.log('---------------------------- Format html successfully ----------------------------')

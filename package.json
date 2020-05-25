@@ -5,22 +5,22 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "render-html": "node render.js",
-    "format-html": "node format.js",
+    "render": "node render.js && node format.js",
+    "publish": "node publish-html.js && node publish-libs.js",
     "save-components": "node save-components.js",
     "render-components": "node render-components.js",
-    "start": "node render.js && node format.js"
+    "start": "node render.js && node format.js && node publish-html.js && node publish-libs.js"
   },
   "author": "romio",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.7.2",
     "express": "^4.17.1",
-    "html-format": "^1.0.1",
     "htmlparser2": "^4.0.0",
-    "mysql": "^2.18.1",
+    "ncp": "^2.0.0",
     "node-html-parser": "^1.2.4",
-    "nodejs-base64": "^1.0.3"
+    "nodejs-base64": "^1.0.3",
+    "pretty": "^2.0.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0"
