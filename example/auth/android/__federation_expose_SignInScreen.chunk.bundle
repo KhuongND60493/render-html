@@ -1,0 +1,105 @@
+"use strict";
+(self['webpackChunksas_auth'] = self['webpackChunksas_auth'] || []).push([["__federation_expose_SignInScreen"], {
+"92293": (function (__unused_webpack_module, exports, __webpack_require__) {
+/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+var f=__webpack_require__(84816),k=Symbol.for("react.element"),l=Symbol.for("react.fragment"),m=Object.prototype.hasOwnProperty,n=f.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,p={key:!0,ref:!0,__self:!0,__source:!0};
+function q(c,a,g){var b,d={},e=null,h=null;void 0!==g&&(e=""+g);void 0!==a.key&&(e=""+a.key);void 0!==a.ref&&(h=a.ref);for(b in a)m.call(a,b)&&!p.hasOwnProperty(b)&&(d[b]=a[b]);if(c&&c.defaultProps)for(b in a=c.defaultProps,a)void 0===d[b]&&(d[b]=a[b]);return{$$typeof:k,type:c,key:e,ref:h,props:d,_owner:n.current}}exports.Fragment=l;exports.jsx=q;exports.jsxs=q;
+
+
+}),
+"31549": (function (module, __unused_webpack_exports, __webpack_require__) {
+
+
+if (true) {
+  module.exports = __webpack_require__(92293);
+} else {}
+
+
+}),
+"7571": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+__webpack_require__.d(__webpack_exports__, {
+  V: function() { return AuthContext; },
+  a: function() { return useAuth; }
+});
+/* ESM import */var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(84816);
+/* ESM import */var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+var AuthContext = react__WEBPACK_IMPORTED_MODULE_0___default().createContext({
+    signIn: function() {},
+    signOut: function() {},
+    signUp: function() {}
+});
+var useAuth = function() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default().useContext(AuthContext);
+};
+
+
+
+}),
+"84985": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+__webpack_require__.r(__webpack_exports__);
+/* ESM import */var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(31549);
+/* ESM import */var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(84816);
+/* ESM import */var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* ESM import */var react_native__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(44963);
+/* ESM import */var react_native__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_native__WEBPACK_IMPORTED_MODULE_2__);
+/* ESM import */var react_native_paper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(60033);
+/* ESM import */var react_native_paper__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_native_paper__WEBPACK_IMPORTED_MODULE_3__);
+/* ESM import */var _contexts_AuthContext__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(7571);
+
+
+
+
+
+var SignInScreen = function() {
+    var signIn = (0,_contexts_AuthContext__WEBPACK_IMPORTED_MODULE_4__/* .useAuth */.a)().signIn;
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_native__WEBPACK_IMPORTED_MODULE_2__.View, {
+        style: styles.container,
+        children: [
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_native_paper__WEBPACK_IMPORTED_MODULE_3__.Text, {
+                variant: "headlineMedium",
+                style: styles.welcomeHeadline,
+                children: "Welcome!"
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_native_paper__WEBPACK_IMPORTED_MODULE_3__.Text, {
+                style: styles.welcomeText,
+                variant: "bodyLarge",
+                children: "This is a dummy login screen. Just press the button and have a look around this super app \uD83D\uDE80"
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_native_paper__WEBPACK_IMPORTED_MODULE_3__.Button, {
+                mode: "contained",
+                onPress: signIn,
+                children: "Login"
+            })
+        ]
+    });
+};
+var styles = react_native__WEBPACK_IMPORTED_MODULE_2__.StyleSheet.create({
+    container: {
+        backgroundColor: '#fff',
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    welcomeHeadline: {
+        color: react_native_paper__WEBPACK_IMPORTED_MODULE_3__.MD3Colors.primary20
+    },
+    welcomeText: {
+        padding: 16,
+        paddingBottom: 32
+    }
+});
+/* ESM default export */ __webpack_exports__["default"] = (SignInScreen);
+
+
+}),
+
+}]);//# sourceMappingURL=__federation_expose_SignInScreen.chunk.bundle.map?platform=android

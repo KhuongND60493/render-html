@@ -1,0 +1,166 @@
+"use strict";
+(self['webpackChunksas_booking'] = self['webpackChunksas_booking'] || []).push([["__federation_expose_UpcomingScreen"], {
+"92293": (function (__unused_webpack_module, exports, __webpack_require__) {
+/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+var f=__webpack_require__(84816),k=Symbol.for("react.element"),l=Symbol.for("react.fragment"),m=Object.prototype.hasOwnProperty,n=f.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner,p={key:!0,ref:!0,__self:!0,__source:!0};
+function q(c,a,g){var b,d={},e=null,h=null;void 0!==g&&(e=""+g);void 0!==a.key&&(e=""+a.key);void 0!==a.ref&&(h=a.ref);for(b in a)m.call(a,b)&&!p.hasOwnProperty(b)&&(d[b]=a[b]);if(c&&c.defaultProps)for(b in a=c.defaultProps,a)void 0===d[b]&&(d[b]=a[b]);return{$$typeof:k,type:c,key:e,ref:h,props:d,_owner:n.current}}exports.Fragment=l;exports.jsx=q;exports.jsxs=q;
+
+
+}),
+"31549": (function (module, __unused_webpack_exports, __webpack_require__) {
+
+
+if (true) {
+  module.exports = __webpack_require__(92293);
+} else {}
+
+
+}),
+"93762": (function (__unused_webpack_module, exports, __webpack_require__) {
+
+var _define_property = __webpack_require__(11649);
+function _object_spread(target) {
+    for(var i = 1; i < arguments.length; i++){
+        var source = arguments[i] != null ? arguments[i] : {};
+        var ownKeys = Object.keys(source);
+        if (typeof Object.getOwnPropertySymbols === "function") {
+            ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function(sym) {
+                return Object.getOwnPropertyDescriptor(source, sym).enumerable;
+            }));
+        }
+        ownKeys.forEach(function(key) {
+            _define_property._(target, key, source[key]);
+        });
+    }
+    return target;
+}
+exports._ = _object_spread;
+
+
+}),
+"67790": (function (__unused_webpack_module, exports) {
+
+function ownKeys(object, enumerableOnly) {
+    var keys = Object.keys(object);
+    if (Object.getOwnPropertySymbols) {
+        var symbols = Object.getOwnPropertySymbols(object);
+        if (enumerableOnly) {
+            symbols = symbols.filter(function(sym) {
+                return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+            });
+        }
+        keys.push.apply(keys, symbols);
+    }
+    return keys;
+}
+function _object_spread_props(target, source) {
+    source = source != null ? source : {};
+    if (Object.getOwnPropertyDescriptors) Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
+    else {
+        ownKeys(Object(source)).forEach(function(key) {
+            Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+        });
+    }
+    return target;
+}
+exports._ = _object_spread_props;
+
+
+}),
+"43304": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+__webpack_require__.r(__webpack_exports__);
+/* ESM import */var _swc_helpers_object_spread__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(93762);
+/* ESM import */var _swc_helpers_object_spread_props__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(67790);
+/* ESM import */var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(31549);
+/* ESM import */var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(84816);
+/* ESM import */var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* ESM import */var react_native__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(44963);
+/* ESM import */var react_native__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_native__WEBPACK_IMPORTED_MODULE_2__);
+/* ESM import */var react_native_paper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(60033);
+/* ESM import */var react_native_paper__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_native_paper__WEBPACK_IMPORTED_MODULE_3__);
+/* ESM import */var _data_upcomingBookings_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(39828);
+
+
+
+
+
+
+
+var renderItem = function(param) {
+    var item = param.item;
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_native_paper__WEBPACK_IMPORTED_MODULE_3__.Card, {
+        mode: "contained",
+        children: [
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_native_paper__WEBPACK_IMPORTED_MODULE_3__.Card.Title, {
+                titleVariant: "titleMedium",
+                subtitleVariant: "bodyMedium",
+                title: "".concat(item.title, " • ").concat(item.provider),
+                subtitle: "".concat(item.date, " ").concat(item.time),
+                left: function(props) {
+                    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_native_paper__WEBPACK_IMPORTED_MODULE_3__.Avatar.Icon, (0,_swc_helpers_object_spread_props__WEBPACK_IMPORTED_MODULE_5__._)((0,_swc_helpers_object_spread__WEBPACK_IMPORTED_MODULE_6__._)({}, props), {
+                        icon: "calendar"
+                    }));
+                }
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_native_paper__WEBPACK_IMPORTED_MODULE_3__.Card.Actions, {
+                children: [
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_native_paper__WEBPACK_IMPORTED_MODULE_3__.Button, {
+                        mode: "text",
+                        onPress: function() {},
+                        children: "Cancel"
+                    }),
+                    /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_native_paper__WEBPACK_IMPORTED_MODULE_3__.Button, {
+                        mode: "contained",
+                        onPress: function() {},
+                        children: "Reschedule"
+                    })
+                ]
+            })
+        ]
+    });
+};
+var renderDivider = function() {
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_native_paper__WEBPACK_IMPORTED_MODULE_3__.Divider, {
+        style: styles.divider
+    });
+};
+var UpcomingScreen = function() {
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_native__WEBPACK_IMPORTED_MODULE_2__.FlatList, {
+        data: _data_upcomingBookings_json__WEBPACK_IMPORTED_MODULE_4__/* .data */.a,
+        renderItem: renderItem,
+        ItemSeparatorComponent: renderDivider,
+        style: styles.container,
+        contentContainerStyle: styles.contentContainer
+    });
+};
+var styles = react_native__WEBPACK_IMPORTED_MODULE_2__.StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#fff'
+    },
+    contentContainer: {
+        padding: 16
+    },
+    divider: {
+        backgroundColor: 'transparent',
+        height: 8
+    }
+});
+/* ESM default export */ __webpack_exports__["default"] = (UpcomingScreen);
+
+
+}),
+"39828": (function (module) {
+module.exports = JSON.parse('{"a":[{"id":"1","title":"Haircut","provider":"John Doe","date":"01.01.2018","time":"10:00"},{"id":"2","title":"Coloring","provider":"John Doe","date":"02.01.2018","time":"09:00"},{"id":"3","title":"Beard trim","provider":"John Doe","date":"03.01.2018","time":"12:00"},{"id":"4","title":"Beard shave","provider":"John Doe","date":"04.01.2018","time":"12:00"},{"id":"5","title":"Haircut","provider":"John Doe","date":"05.01.2018","time":"12:00"},{"id":"6","title":"Haircut","provider":"John Doe","date":"06.01.2018","time":"12:00"},{"id":"7","title":"Nail polish","provider":"John Doe","date":"07.01.2018","time":"12:00"},{"id":"8","title":"Head massage","provider":"John Doe","date":"08.01.2018","time":"12:00"}]}')
+
+}),
+
+}]);//# sourceMappingURL=__federation_expose_UpcomingScreen.chunk.bundle.map?platform=android

@@ -1,0 +1,626 @@
+"use strict";
+(self['webpackChunksas_shopping'] = self['webpackChunksas_shopping'] || []).push([["__federation_expose_App"], {
+"49346": (function (__unused_webpack_module, exports) {
+
+function _assert_this_initialized(self) {
+    if (self === void 0) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+    return self;
+}
+exports._ = _assert_this_initialized;
+
+
+}),
+"71995": (function (__unused_webpack_module, exports, __webpack_require__) {
+
+var _get_prototype_of = __webpack_require__(51400);
+var _is_native_reflect_construct = __webpack_require__(24165);
+var _possible_constructor_return = __webpack_require__(36340);
+function _call_super(_this, derived, args) {
+    // Super
+    derived = _get_prototype_of._(derived);
+    return _possible_constructor_return._(_this, _is_native_reflect_construct._() ? Reflect.construct(derived, args || [], _get_prototype_of._(_this).constructor) : derived.apply(_this, args));
+}
+exports._ = _call_super;
+
+
+}),
+"14723": (function (__unused_webpack_module, exports) {
+
+function _class_call_check(instance, Constructor) {
+    if (!(instance instanceof Constructor)) throw new TypeError("Cannot call a class as a function");
+}
+exports._ = _class_call_check;
+
+
+}),
+"51400": (function (__unused_webpack_module, exports) {
+
+function _get_prototype_of(o) {
+    exports._ = _get_prototype_of = Object.setPrototypeOf ? Object.getPrototypeOf : function getPrototypeOf(o) {
+        return o.__proto__ || Object.getPrototypeOf(o);
+    };
+    return _get_prototype_of(o);
+}
+exports._ = _get_prototype_of;
+
+
+}),
+"24165": (function (__unused_webpack_module, exports) {
+
+function _is_native_reflect_construct() {
+    // Since Reflect.construct can't be properly polyfilled, some
+    // implementations (e.g. core-js@2) don't set the correct internal slots.
+    // Those polyfills don't allow us to subclass built-ins, so we need to
+    // use our fallback implementation.
+    try {
+        // If the internal slots aren't set, this throws an error similar to
+        //   TypeError: this is not a Boolean object.
+        var result = !Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function() {}));
+    } catch (_) {}
+    return (exports._ = _is_native_reflect_construct = function _is_native_reflect_construct() {
+        return !!result;
+    })();
+}
+exports._ = _is_native_reflect_construct;
+
+
+}),
+"36340": (function (__unused_webpack_module, exports, __webpack_require__) {
+
+var _assert_this_initialized = __webpack_require__(49346);
+var _type_of = __webpack_require__(15576);
+function _possible_constructor_return(self, call) {
+    if (call && (_type_of._(call) === "object" || typeof call === "function")) return call;
+    return _assert_this_initialized._(self);
+}
+exports._ = _possible_constructor_return;
+
+
+}),
+"42691": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": function() { return /* binding */ MainNavigator; }
+});
+
+// EXTERNAL MODULE: ../../node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js
+var jsx_runtime = __webpack_require__("31549");
+// EXTERNAL MODULE: consume shared module (default) react@18.3.1 (strict) (fallback: /Users/stepmedia/Desktop/pos-super-app/node_modules/.pnpm/react@18.3.1/node_modules/react/index.js)
+var index_js_ = __webpack_require__("84816");
+var index_js_default = /*#__PURE__*/__webpack_require__.n(index_js_);
+// EXTERNAL MODULE: consume shared module (default) @react-navigation/native-stack@7.1.14 (strict) (fallback: /Users/stepmedia/Desktop/pos-super-app/node_modules/.pnpm/@react-navigation+native-stack@7.1.14_@react-navigation+native@7.0.13_react-native@0.76.3_@ba_e4s2oyi574yy5qssipmnsgrama/node_modules/@react-navigation/native-stack/lib/commonjs/index.js)
+var commonjs_index_js_ = __webpack_require__("11477");
+// EXTERNAL MODULE: consume shared module (default) @bottom-tabs/react-navigation@0.7.6 (strict) (fallback: /Users/stepmedia/Desktop/pos-super-app/node_modules/.pnpm/@bottom-tabs+react-navigation@0.7.6_@react-navigation+native@7.0.13_react-native@0.76.3_@babe_w6d3al2lee7hlufyfwbds5ef2q/node_modules/@bottom-tabs/react-navigation/lib/commonjs/index.js)
+var lib_commonjs_index_js_ = __webpack_require__("35989");
+// EXTERNAL MODULE: consume shared module (default) react-native-paper@5.12.5 (strict) (fallback: /Users/stepmedia/Desktop/pos-super-app/node_modules/.pnpm/react-native-paper@5.12.5_patch_hash=jbcjvd6hhp2gtyomtoldpygoay_react-native-safe-area-contex_wtyp2zqz2c6w3xrc4c3tl7tfsu/node_modules/react-native-paper/src/index.tsx)
+var index_tsx_ = __webpack_require__("60033");
+// EXTERNAL MODULE: ../../node_modules/.pnpm/react-native-vector-icons@10.2.0/node_modules/react-native-vector-icons/MaterialCommunityIcons.js
+var MaterialCommunityIcons = __webpack_require__("44803");
+var MaterialCommunityIcons_default = /*#__PURE__*/__webpack_require__.n(MaterialCommunityIcons);
+;// CONCATENATED MODULE: ./src/components/NavBar.tsx
+
+
+
+var NavBar_NavBar = function(param) {
+    var navigation = param.navigation, back = param.back, route = param.route, options = param.options;
+    var _options_title;
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(index_tsx_.Appbar.Header, {
+        elevated: true,
+        style: {
+            backgroundColor: index_tsx_.MD3Colors.primary95
+        },
+        children: [
+            back ? /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Appbar.BackAction, {
+                onPress: navigation.goBack
+            }) : null,
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Appbar.Content, {
+                title: (_options_title = options.title) !== null && _options_title !== void 0 ? _options_title : route.name
+            })
+        ]
+    });
+};
+/* ESM default export */ var NavBar = (NavBar_NavBar);
+
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@swc+helpers@0.5.13/node_modules/@swc/helpers/cjs/_call_super.cjs
+var _call_super = __webpack_require__("71995");
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@swc+helpers@0.5.13/node_modules/@swc/helpers/cjs/_class_call_check.cjs
+var _class_call_check = __webpack_require__("14723");
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@swc+helpers@0.5.13/node_modules/@swc/helpers/cjs/_create_class.cjs
+var _create_class = __webpack_require__("67379");
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@swc+helpers@0.5.13/node_modules/@swc/helpers/cjs/_define_property.cjs
+var _define_property = __webpack_require__("11649");
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@swc+helpers@0.5.13/node_modules/@swc/helpers/cjs/_inherits.cjs
+var _inherits = __webpack_require__("92985");
+// EXTERNAL MODULE: consume shared module (default) react-native@0.76.3 (strict) (fallback: /Users/stepmedia/Desktop/pos-super-app/node_modules/.pnpm/react-native@0.76.3_@babel+core@7.26.0_@babel+preset-env@7.26.0_@babel+core@7.26.0__@react-na_wyrraafi6qbpekbzwhkefobpj4/node_modules/react-native/index.js)
+var react_native_index_js_ = __webpack_require__("44963");
+;// CONCATENATED MODULE: ./src/components/ErrorBoundary.tsx
+
+
+
+
+
+
+
+
+
+
+var ErrorBoundary_ErrorBoundary = /*#__PURE__*/ function(_React_Component) {
+    "use strict";
+    (0,_inherits._)(ErrorBoundary, _React_Component);
+    function ErrorBoundary(props) {
+        (0,_class_call_check._)(this, ErrorBoundary);
+        var _this;
+        _this = (0,_call_super._)(this, ErrorBoundary, [
+            props
+        ]), (0,_define_property._)(_this, "name", void 0);
+        _this.name = props.name;
+        _this.state = {
+            hasError: false
+        };
+        return _this;
+    }
+    (0,_create_class._)(ErrorBoundary, [
+        {
+            key: "componentDidCatch",
+            value: function componentDidCatch(error, errorInfo) {
+                console.log(error, errorInfo);
+            }
+        },
+        {
+            key: "render",
+            value: function render() {
+                if (this.state.hasError) {
+                    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(react_native_index_js_.SafeAreaView, {
+                        style: styles.container,
+                        children: [
+                            /*#__PURE__*/ (0,jsx_runtime.jsx)((MaterialCommunityIcons_default()), {
+                                size: 96,
+                                color: index_tsx_.MD3Colors.primary20,
+                                name: "alert-octagon"
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime.jsx)(react_native_index_js_.Text, {
+                                style: styles.text,
+                                children: "Failed to load ".concat(this.name)
+                            })
+                        ]
+                    });
+                }
+                return this.props.children;
+            }
+        }
+    ], [
+        {
+            key: "getDerivedStateFromError",
+            value: function getDerivedStateFromError() {
+                return {
+                    hasError: true
+                };
+            }
+        }
+    ]);
+    return ErrorBoundary;
+}((index_js_default()).Component);
+var styles = react_native_index_js_.StyleSheet.create({
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    text: {
+        fontSize: 24,
+        color: index_tsx_.MD3Colors.primary20,
+        textAlign: 'center'
+    }
+});
+/* ESM default export */ var components_ErrorBoundary = (ErrorBoundary_ErrorBoundary);
+
+;// CONCATENATED MODULE: ./src/components/Placeholder.tsx
+
+
+
+
+
+var Placeholder = function(param) {
+    var label = param.label, icon = param.icon;
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(react_native_index_js_.SafeAreaView, {
+        style: Placeholder_styles.container,
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsx)((MaterialCommunityIcons_default()), {
+                size: 96,
+                color: index_tsx_.MD3Colors.primary20,
+                name: icon
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(react_native_index_js_.Text, {
+                style: Placeholder_styles.text,
+                children: label
+            })
+        ]
+    });
+};
+var Placeholder_styles = react_native_index_js_.StyleSheet.create({
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    text: {
+        fontSize: 24,
+        color: index_tsx_.MD3Colors.primary20
+    }
+});
+/* ESM default export */ var components_Placeholder = (Placeholder);
+
+;// CONCATENATED MODULE: ./src/screens/AccountScreen.tsx
+
+
+
+
+var Account = /*#__PURE__*/ index_js_default().lazy(function() {
+    return __webpack_require__.e(/* import() */ "webpack_container_remote_auth_AccountScreen").then(__webpack_require__.t.bind(__webpack_require__, 4847, 23));
+});
+var AccountScreen_AccountScreen = function() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ErrorBoundary, {
+        name: "AccountScreen",
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)((index_js_default()).Suspense, {
+            fallback: /*#__PURE__*/ (0,jsx_runtime.jsx)(components_Placeholder, {
+                label: "Account",
+                icon: "account"
+            }),
+            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Account, {})
+        })
+    });
+};
+/* ESM default export */ var AccountScreen = (AccountScreen_AccountScreen);
+
+;// CONCATENATED MODULE: ./src/navigation/AccountNavigator.tsx
+
+
+
+
+
+var AccountNavigator_Account = (0,commonjs_index_js_.createNativeStackNavigator)();
+var AccountNavigator_AccountNavigator = function() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(AccountNavigator_Account.Navigator, {
+        screenOptions: {
+            header: NavBar
+        },
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(AccountNavigator_Account.Screen, {
+            name: "Account",
+            component: AccountScreen
+        })
+    });
+};
+/* ESM default export */ var AccountNavigator = (AccountNavigator_AccountNavigator);
+
+;// CONCATENATED MODULE: ./src/data/products.json
+var products_namespaceObject = JSON.parse('{"a":[{"id":"1","price":"100","name":"Shampoo","description":"Shampoo for hair","image":"https://picsum.photos/700?a"},{"id":"2","price":"200","name":"Conditioner","description":"Conditioner for hair and scalp","image":"https://picsum.photos/700?a"},{"id":"3","price":"300","name":"Hair Oil","description":"Hair Oil for hair growth","image":"https://picsum.photos/700?a"},{"id":"4","price":"400","name":"Hair Gel","description":"Hair Gel for hair styling","image":"https://picsum.photos/700?a"}]}')
+;// CONCATENATED MODULE: ./src/screens/HomeScreen.tsx
+
+
+
+
+
+var showNotImplementedAlert = function() {
+    return react_native_index_js_.Alert.alert('Not implemented yet');
+};
+var renderProduct = function(param) {
+    var item = param.item, index = param.index;
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(index_tsx_.Card, {
+        mode: "contained",
+        style: HomeScreen_styles.cardWidth,
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Card.Cover, {
+                source: {
+                    uri: "".concat(item.image, "?").concat(index)
+                }
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)(index_tsx_.Card.Content, {
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Title, {
+                        children: "".concat(item.name, " • $").concat(item.price)
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Paragraph, {
+                        numberOfLines: 1,
+                        children: item.description
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)(index_tsx_.Card.Actions, {
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Button, {
+                        onPress: showNotImplementedAlert,
+                        children: "To Wishlist"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Button, {
+                        onPress: showNotImplementedAlert,
+                        children: "Buy"
+                    })
+                ]
+            })
+        ]
+    });
+};
+var renderSliderItem = function() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(react_native_index_js_.Image, {
+        source: {
+            uri: 'https://picsum.photos/600?a'
+        },
+        style: HomeScreen_styles.sliderItem
+    });
+};
+var renderDivider = function() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Divider, {
+        style: HomeScreen_styles.divider
+    });
+};
+var HomeScreen = function() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(react_native_index_js_.ScrollView, {
+        style: HomeScreen_styles.container,
+        contentInsetAdjustmentBehavior: "automatic",
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(react_native_index_js_.FlatList, {
+                horizontal: true,
+                showsHorizontalScrollIndicator: false,
+                data: products_namespaceObject.a,
+                renderItem: renderSliderItem,
+                pagingEnabled: true
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)(react_native_index_js_.View, {
+                style: HomeScreen_styles.header,
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Text, {
+                        variant: "titleLarge",
+                        style: HomeScreen_styles.headerTitle,
+                        children: "Featured Products"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Button, {
+                        mode: "contained-tonal",
+                        onPress: showNotImplementedAlert,
+                        children: "See All"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(react_native_index_js_.FlatList, {
+                horizontal: true,
+                showsHorizontalScrollIndicator: false,
+                data: products_namespaceObject.a,
+                renderItem: renderProduct,
+                ItemSeparatorComponent: renderDivider,
+                contentContainerStyle: HomeScreen_styles.contentContainer
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)(react_native_index_js_.View, {
+                style: HomeScreen_styles.header,
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Text, {
+                        variant: "titleLarge",
+                        style: HomeScreen_styles.headerTitle,
+                        children: "New Products"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Button, {
+                        mode: "contained-tonal",
+                        onPress: showNotImplementedAlert,
+                        children: "See All"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(react_native_index_js_.FlatList, {
+                horizontal: true,
+                showsHorizontalScrollIndicator: false,
+                data: products_namespaceObject.a,
+                renderItem: renderProduct,
+                ItemSeparatorComponent: renderDivider,
+                contentContainerStyle: HomeScreen_styles.contentContainer
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)(react_native_index_js_.View, {
+                style: HomeScreen_styles.header,
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Text, {
+                        variant: "titleLarge",
+                        style: HomeScreen_styles.headerTitle,
+                        children: "You may also like"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Button, {
+                        mode: "contained-tonal",
+                        onPress: showNotImplementedAlert,
+                        children: "See All"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(react_native_index_js_.FlatList, {
+                horizontal: true,
+                showsHorizontalScrollIndicator: false,
+                data: products_namespaceObject.a,
+                renderItem: renderProduct,
+                ItemSeparatorComponent: renderDivider,
+                contentContainerStyle: HomeScreen_styles.contentContainer
+            })
+        ]
+    });
+};
+var _Dimensions_get = react_native_index_js_.Dimensions.get('screen'), sliderItemWidth = _Dimensions_get.width;
+var HomeScreen_styles = react_native_index_js_.StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#fff'
+    },
+    contentContainer: {
+        paddingHorizontal: 16
+    },
+    divider: {
+        backgroundColor: 'transparent',
+        width: 16
+    },
+    header: {
+        padding: 16,
+        flexDirection: 'row',
+        alignItems: 'center'
+    },
+    headerTitle: {
+        flex: 1
+    },
+    cardWidth: {
+        width: 270
+    },
+    sliderItem: {
+        width: sliderItemWidth,
+        height: sliderItemWidth / 3 * 2
+    }
+});
+/* ESM default export */ var screens_HomeScreen = (HomeScreen);
+
+;// CONCATENATED MODULE: ./src/navigation/HomeNavigator.tsx
+
+
+
+
+
+var Home = (0,commonjs_index_js_.createNativeStackNavigator)();
+var HomeNavigator_HomeNavigator = function() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Home.Navigator, {
+        screenOptions: {
+            header: NavBar,
+            title: 'Shopping'
+        },
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Home.Screen, {
+            name: "Home",
+            component: screens_HomeScreen
+        })
+    });
+};
+/* ESM default export */ var HomeNavigator = (HomeNavigator_HomeNavigator);
+
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@swc+helpers@0.5.13/node_modules/@swc/helpers/cjs/_sliced_to_array.cjs
+var _sliced_to_array = __webpack_require__("38097");
+;// CONCATENATED MODULE: ./src/screens/SearchScreen.tsx
+
+
+
+
+
+var SearchScreen = function() {
+    var _useState = (0,_sliced_to_array._)((0,index_js_.useState)(''), 2), searchQuery = _useState[0], setSearchQuery = _useState[1];
+    var onChangeSearch = (0,index_js_.useCallback)(function(query) {
+        return setSearchQuery(query);
+    }, []);
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(react_native_index_js_.View, {
+        style: SearchScreen_styles.container,
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Searchbar, {
+            placeholder: "Search...",
+            onChangeText: onChangeSearch,
+            value: searchQuery,
+            iconColor: index_tsx_.MD3Colors.primary50,
+            style: SearchScreen_styles.searchbar
+        })
+    });
+};
+var SearchScreen_styles = react_native_index_js_.StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#fff'
+    },
+    searchbar: {
+        margin: 16
+    }
+});
+/* ESM default export */ var screens_SearchScreen = (SearchScreen);
+
+;// CONCATENATED MODULE: ./src/navigation/SearchNavigator.tsx
+
+
+
+
+
+var Search = (0,commonjs_index_js_.createNativeStackNavigator)();
+var SearchNavigator_SearchNavigator = function() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Search.Navigator, {
+        screenOptions: {
+            header: NavBar
+        },
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Search.Screen, {
+            name: "Search",
+            component: screens_SearchScreen
+        })
+    });
+};
+/* ESM default export */ var SearchNavigator = (SearchNavigator_SearchNavigator);
+
+;// CONCATENATED MODULE: ./src/navigation/TabsNavigator.tsx
+
+
+
+
+
+
+
+
+var homeIcon = MaterialCommunityIcons_default().getImageSourceSync('home', 24);
+var magnifyIcon = MaterialCommunityIcons_default().getImageSourceSync('magnify', 24);
+var accountIcon = MaterialCommunityIcons_default().getImageSourceSync('account', 24);
+var Tabs = (0,lib_commonjs_index_js_.createNativeBottomTabNavigator)();
+var TabsNavigator_TabsNavigator = function() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(Tabs.Navigator, {
+        translucent: false,
+        tabBarActiveTintColor: index_tsx_.MD3Colors.primary50,
+        barTintColor: index_tsx_.MD3Colors.primary95,
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(Tabs.Screen, {
+                name: "HomeNavigator",
+                component: HomeNavigator,
+                options: {
+                    title: 'Home',
+                    tabBarIcon: function() {
+                        return homeIcon;
+                    }
+                }
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(Tabs.Screen, {
+                name: "SearchNavigator",
+                component: SearchNavigator,
+                options: {
+                    title: 'Search',
+                    tabBarIcon: function() {
+                        return magnifyIcon;
+                    }
+                }
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(Tabs.Screen, {
+                name: "AccountNavigator",
+                component: AccountNavigator,
+                options: {
+                    title: 'Account',
+                    tabBarIcon: function() {
+                        return accountIcon;
+                    }
+                }
+            })
+        ]
+    });
+};
+/* ESM default export */ var TabsNavigator = (TabsNavigator_TabsNavigator);
+
+;// CONCATENATED MODULE: ./src/navigation/MainNavigator.tsx
+
+
+
+
+var Main = (0,commonjs_index_js_.createNativeStackNavigator)();
+var MainNavigator_MainNavigator = function() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Main.Navigator, {
+        screenOptions: {
+            headerShown: false
+        },
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Main.Screen, {
+            name: "Tabs",
+            component: TabsNavigator
+        })
+    });
+};
+/* ESM default export */ var MainNavigator = (MainNavigator_MainNavigator);
+
+
+}),
+
+}]);//# sourceMappingURL=__federation_expose_App.chunk.bundle.map?platform=android

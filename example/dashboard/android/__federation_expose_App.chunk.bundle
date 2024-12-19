@@ -1,0 +1,1056 @@
+(self['webpackChunksas_dashboard'] = self['webpackChunksas_dashboard'] || []).push([["__federation_expose_App"], {
+"48826": (function (module, __unused_webpack_exports, __webpack_require__) {
+var map = {
+  "./af": "88192",
+  "./af.js": "88192",
+  "./ar": "50384",
+  "./ar-dz": "50281",
+  "./ar-dz.js": "50281",
+  "./ar-kw": "42535",
+  "./ar-kw.js": "42535",
+  "./ar-ly": "79695",
+  "./ar-ly.js": "79695",
+  "./ar-ma": "51860",
+  "./ar-ma.js": "51860",
+  "./ar-sa": "45739",
+  "./ar-sa.js": "45739",
+  "./ar-tn": "79315",
+  "./ar-tn.js": "79315",
+  "./ar.js": "50384",
+  "./az": "4589",
+  "./az.js": "4589",
+  "./be": "62397",
+  "./be.js": "62397",
+  "./bg": "69114",
+  "./bg.js": "69114",
+  "./bm": "87783",
+  "./bm.js": "87783",
+  "./bn": "15397",
+  "./bn-bd": "9886",
+  "./bn-bd.js": "9886",
+  "./bn.js": "15397",
+  "./bo": "99197",
+  "./bo.js": "99197",
+  "./br": "83585",
+  "./br.js": "83585",
+  "./bs": "6726",
+  "./bs.js": "6726",
+  "./ca": "55622",
+  "./ca.js": "55622",
+  "./cs": "99042",
+  "./cs.js": "99042",
+  "./cv": "36479",
+  "./cv.js": "36479",
+  "./cy": "39868",
+  "./cy.js": "39868",
+  "./da": "52277",
+  "./da.js": "52277",
+  "./de": "23848",
+  "./de-at": "21327",
+  "./de-at.js": "21327",
+  "./de-ch": "67262",
+  "./de-ch.js": "67262",
+  "./de.js": "23848",
+  "./dv": "5247",
+  "./dv.js": "5247",
+  "./el": "94714",
+  "./el.js": "94714",
+  "./en-au": "18052",
+  "./en-au.js": "18052",
+  "./en-ca": "45130",
+  "./en-ca.js": "45130",
+  "./en-gb": "16985",
+  "./en-gb.js": "16985",
+  "./en-ie": "71770",
+  "./en-ie.js": "71770",
+  "./en-il": "84983",
+  "./en-il.js": "84983",
+  "./en-in": "52393",
+  "./en-in.js": "52393",
+  "./en-nz": "19225",
+  "./en-nz.js": "19225",
+  "./en-sg": "61553",
+  "./en-sg.js": "61553",
+  "./eo": "38411",
+  "./eo.js": "38411",
+  "./es": "26672",
+  "./es-do": "89314",
+  "./es-do.js": "89314",
+  "./es-mx": "55784",
+  "./es-mx.js": "55784",
+  "./es-us": "27795",
+  "./es-us.js": "27795",
+  "./es.js": "26672",
+  "./et": "86664",
+  "./et.js": "86664",
+  "./eu": "92928",
+  "./eu.js": "92928",
+  "./fa": "5253",
+  "./fa.js": "5253",
+  "./fi": "98898",
+  "./fi.js": "98898",
+  "./fil": "78535",
+  "./fil.js": "78535",
+  "./fo": "16688",
+  "./fo.js": "16688",
+  "./fr": "78201",
+  "./fr-ca": "8364",
+  "./fr-ca.js": "8364",
+  "./fr-ch": "19540",
+  "./fr-ch.js": "19540",
+  "./fr.js": "78201",
+  "./fy": "15623",
+  "./fy.js": "15623",
+  "./ga": "41744",
+  "./ga.js": "41744",
+  "./gd": "81093",
+  "./gd.js": "81093",
+  "./gl": "6030",
+  "./gl.js": "6030",
+  "./gom-deva": "44679",
+  "./gom-deva.js": "44679",
+  "./gom-latn": "89336",
+  "./gom-latn.js": "89336",
+  "./gu": "74969",
+  "./gu.js": "74969",
+  "./he": "94577",
+  "./he.js": "94577",
+  "./hi": "12064",
+  "./hi.js": "12064",
+  "./hr": "31066",
+  "./hr.js": "31066",
+  "./hu": "35295",
+  "./hu.js": "35295",
+  "./hy-am": "1757",
+  "./hy-am.js": "1757",
+  "./id": "40210",
+  "./id.js": "40210",
+  "./is": "9377",
+  "./is.js": "9377",
+  "./it": "19078",
+  "./it-ch": "29822",
+  "./it-ch.js": "29822",
+  "./it.js": "19078",
+  "./ja": "44612",
+  "./ja.js": "44612",
+  "./jv": "61734",
+  "./jv.js": "61734",
+  "./ka": "45986",
+  "./ka.js": "45986",
+  "./kk": "80281",
+  "./kk.js": "80281",
+  "./km": "1189",
+  "./km.js": "1189",
+  "./kn": "65669",
+  "./kn.js": "65669",
+  "./ko": "14980",
+  "./ko.js": "14980",
+  "./ku": "91452",
+  "./ku.js": "91452",
+  "./ky": "93600",
+  "./ky.js": "93600",
+  "./lb": "21907",
+  "./lb.js": "21907",
+  "./lo": "38744",
+  "./lo.js": "38744",
+  "./lt": "39687",
+  "./lt.js": "39687",
+  "./lv": "11681",
+  "./lv.js": "11681",
+  "./me": "8853",
+  "./me.js": "8853",
+  "./mi": "41638",
+  "./mi.js": "41638",
+  "./mk": "61479",
+  "./mk.js": "61479",
+  "./ml": "28693",
+  "./ml.js": "28693",
+  "./mn": "36893",
+  "./mn.js": "36893",
+  "./mr": "32244",
+  "./mr.js": "32244",
+  "./ms": "25844",
+  "./ms-my": "22760",
+  "./ms-my.js": "22760",
+  "./ms.js": "25844",
+  "./mt": "2482",
+  "./mt.js": "2482",
+  "./my": "60276",
+  "./my.js": "60276",
+  "./nb": "632",
+  "./nb.js": "632",
+  "./ne": "68385",
+  "./ne.js": "68385",
+  "./nl": "6488",
+  "./nl-be": "72057",
+  "./nl-be.js": "72057",
+  "./nl.js": "6488",
+  "./nn": "29168",
+  "./nn.js": "29168",
+  "./oc-lnc": "55215",
+  "./oc-lnc.js": "55215",
+  "./pa-in": "39018",
+  "./pa-in.js": "39018",
+  "./pl": "17731",
+  "./pl.js": "17731",
+  "./pt": "77700",
+  "./pt-br": "12241",
+  "./pt-br.js": "12241",
+  "./pt.js": "77700",
+  "./ro": "89821",
+  "./ro.js": "89821",
+  "./ru": "98565",
+  "./ru.js": "98565",
+  "./sd": "75365",
+  "./sd.js": "75365",
+  "./se": "49977",
+  "./se.js": "49977",
+  "./si": "31795",
+  "./si.js": "31795",
+  "./sk": "72936",
+  "./sk.js": "72936",
+  "./sl": "29960",
+  "./sl.js": "29960",
+  "./sq": "99917",
+  "./sq.js": "99917",
+  "./sr": "57470",
+  "./sr-cyrl": "41063",
+  "./sr-cyrl.js": "41063",
+  "./sr.js": "57470",
+  "./ss": "90834",
+  "./ss.js": "90834",
+  "./sv": "42515",
+  "./sv.js": "42515",
+  "./sw": "82235",
+  "./sw.js": "82235",
+  "./ta": "1719",
+  "./ta.js": "1719",
+  "./te": "58108",
+  "./te.js": "58108",
+  "./tet": "30796",
+  "./tet.js": "30796",
+  "./tg": "83997",
+  "./tg.js": "83997",
+  "./th": "74041",
+  "./th.js": "74041",
+  "./tk": "66475",
+  "./tk.js": "66475",
+  "./tl-ph": "29165",
+  "./tl-ph.js": "29165",
+  "./tlh": "94884",
+  "./tlh.js": "94884",
+  "./tr": "79421",
+  "./tr.js": "79421",
+  "./tzl": "23033",
+  "./tzl.js": "23033",
+  "./tzm": "65863",
+  "./tzm-latn": "84326",
+  "./tzm-latn.js": "84326",
+  "./tzm.js": "65863",
+  "./ug-cn": "79740",
+  "./ug-cn.js": "79740",
+  "./uk": "20042",
+  "./uk.js": "20042",
+  "./ur": "38672",
+  "./ur.js": "38672",
+  "./uz": "67189",
+  "./uz-latn": "10218",
+  "./uz-latn.js": "10218",
+  "./uz.js": "67189",
+  "./vi": "16326",
+  "./vi.js": "16326",
+  "./x-pseudo": "72763",
+  "./x-pseudo.js": "72763",
+  "./yo": "316",
+  "./yo.js": "316",
+  "./zh-cn": "73698",
+  "./zh-cn.js": "73698",
+  "./zh-hk": "70107",
+  "./zh-hk.js": "70107",
+  "./zh-mo": "93588",
+  "./zh-mo.js": "93588",
+  "./zh-tw": "70416",
+  "./zh-tw.js": "70416"
+};
+
+
+function webpackContext(req) {
+  var id = webpackContextResolve(req);
+  return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+  if(!__webpack_require__.o(map, req)) {
+    var e = new Error("Cannot find module '" + req + "'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+  }
+  return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+  return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "48826";
+
+
+}),
+"60505": (function (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": function() { return /* binding */ MainNavigator; }
+});
+
+// EXTERNAL MODULE: ../../node_modules/.pnpm/react@18.3.1/node_modules/react/jsx-runtime.js
+var jsx_runtime = __webpack_require__("31549");
+// EXTERNAL MODULE: consume shared module (default) react@18.3.1 (strict) (fallback: /Users/stepmedia/Desktop/pos-super-app/node_modules/.pnpm/react@18.3.1/node_modules/react/index.js)
+var index_js_ = __webpack_require__("84816");
+var index_js_default = /*#__PURE__*/__webpack_require__.n(index_js_);
+// EXTERNAL MODULE: consume shared module (default) @react-navigation/native-stack@7.1.14 (strict) (fallback: /Users/stepmedia/Desktop/pos-super-app/node_modules/.pnpm/@react-navigation+native-stack@7.1.14_@react-navigation+native@7.0.13_react-native@0.76.3_@ba_e4s2oyi574yy5qssipmnsgrama/node_modules/@react-navigation/native-stack/lib/commonjs/index.js)
+var commonjs_index_js_ = __webpack_require__("11477");
+// EXTERNAL MODULE: consume shared module (default) @bottom-tabs/react-navigation@0.7.6 (strict) (fallback: /Users/stepmedia/Desktop/pos-super-app/node_modules/.pnpm/@bottom-tabs+react-navigation@0.7.6_@react-navigation+native@7.0.13_react-native@0.76.3_@babe_w6d3al2lee7hlufyfwbds5ef2q/node_modules/@bottom-tabs/react-navigation/lib/commonjs/index.js)
+var lib_commonjs_index_js_ = __webpack_require__("35989");
+// EXTERNAL MODULE: consume shared module (default) react-native-paper@5.12.5 (strict) (fallback: /Users/stepmedia/Desktop/pos-super-app/node_modules/.pnpm/react-native-paper@5.12.5_patch_hash=jbcjvd6hhp2gtyomtoldpygoay_react-native-safe-area-contex_wtyp2zqz2c6w3xrc4c3tl7tfsu/node_modules/react-native-paper/src/index.tsx)
+var index_tsx_ = __webpack_require__("60033");
+// EXTERNAL MODULE: ../../node_modules/.pnpm/react-native-vector-icons@10.2.0/node_modules/react-native-vector-icons/MaterialCommunityIcons.js
+var MaterialCommunityIcons = __webpack_require__("44803");
+var MaterialCommunityIcons_default = /*#__PURE__*/__webpack_require__.n(MaterialCommunityIcons);
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@swc+helpers@0.5.13/node_modules/@swc/helpers/cjs/_object_spread.cjs
+var _object_spread = __webpack_require__("93762");
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@swc+helpers@0.5.13/node_modules/@swc/helpers/cjs/_object_spread_props.cjs
+var _object_spread_props = __webpack_require__("67790");
+// EXTERNAL MODULE: consume shared module (default) react-native@0.76.3 (strict) (fallback: /Users/stepmedia/Desktop/pos-super-app/node_modules/.pnpm/react-native@0.76.3_@babel+core@7.26.0_@babel+preset-env@7.26.0_@babel+core@7.26.0__@react-na_wyrraafi6qbpekbzwhkefobpj4/node_modules/react-native/index.js)
+var react_native_index_js_ = __webpack_require__("44963");
+;// CONCATENATED MODULE: ./src/data/bookings.json
+var bookings_namespaceObject = JSON.parse('{"a":[{"id":"1","title":"Haircut","provider":"John Doe","date":"01.01.2018","time":"10:00"},{"id":"2","title":"Coloring","provider":"John Doe","date":"02.01.2018","time":"09:00"},{"id":"3","title":"Beard trim","provider":"John Doe","date":"03.01.2018","time":"12:00"},{"id":"4","title":"Beard shave","provider":"John Doe","date":"04.01.2018","time":"12:00"},{"id":"5","title":"Haircut","provider":"John Doe","date":"05.01.2018","time":"12:00"},{"id":"6","title":"Haircut","provider":"John Doe","date":"06.01.2018","time":"12:00"},{"id":"7","title":"Nail polish","provider":"John Doe","date":"07.01.2018","time":"12:00"},{"id":"8","title":"Head massage","provider":"John Doe","date":"08.01.2018","time":"12:00"}]}')
+;// CONCATENATED MODULE: ./src/data/products.json
+var products_namespaceObject = JSON.parse('{"a":[{"id":"1","price":"100","name":"Shampoo","description":"Shampoo for hair","image":"https://picsum.photos/700"},{"id":"2","price":"200","name":"Conditioner","description":"Conditioner for hair and scalp","image":"https://picsum.photos/700"},{"id":"3","price":"300","name":"Hair Oil","description":"Hair Oil for hair growth","image":"https://picsum.photos/700"},{"id":"4","price":"400","name":"Hair Gel","description":"Hair Gel for hair styling","image":"https://picsum.photos/700"}]}')
+;// CONCATENATED MODULE: ./src/data/news.json
+var news_namespaceObject = JSON.parse('{"a":[{"id":"1","title":"News 1","image":"https://picsum.photos/700","content":"Lorem ipsum dolor sit amet consectetur adipiscing elit in taciti suscipit gravida, felis congue ad tincidunt nec habitasse erat massa potenti purus, morbi ut iaculis eget sodales quis etiam condimentum nullam vulputate. Netus penatibus etiam ultrices neque nostra augue class tincidunt dapibus libero cum odio tempor habitant, eu praesent ligula lacinia egestas eros turpis donec luctus nullam aliquet nibh orci. Hendrerit euismod massa blandit sagittis aptent mi imperdiet dictumst dui curabitur, nascetur nunc potenti vestibulum diam luctus class purus felis, phasellus primis porta per quam penatibus fringilla magnis metus."},{"id":"2","title":"News 2","image":"https://picsum.photos/700","content":"Lorem ipsum dolor sit amet consectetur adipiscing elit in taciti suscipit gravida, felis congue ad tincidunt nec habitasse erat massa potenti purus, morbi ut iaculis eget sodales quis etiam condimentum nullam vulputate. Netus penatibus etiam ultrices neque nostra augue class tincidunt dapibus libero cum odio tempor habitant, eu praesent ligula lacinia egestas eros turpis donec luctus nullam aliquet nibh orci. Hendrerit euismod massa blandit sagittis aptent mi imperdiet dictumst dui curabitur, nascetur nunc potenti vestibulum diam luctus class purus felis, phasellus primis porta per quam penatibus fringilla magnis metus."},{"id":"3","title":"News 3","image":"https://picsum.photos/700","content":"Lorem ipsum dolor sit amet consectetur adipiscing elit in taciti suscipit gravida, felis congue ad tincidunt nec habitasse erat massa potenti purus, morbi ut iaculis eget sodales quis etiam condimentum nullam vulputate. Netus penatibus etiam ultrices neque nostra augue class tincidunt dapibus libero cum odio tempor habitant, eu praesent ligula lacinia egestas eros turpis donec luctus nullam aliquet nibh orci. Hendrerit euismod massa blandit sagittis aptent mi imperdiet dictumst dui curabitur, nascetur nunc potenti vestibulum diam luctus class purus felis, phasellus primis porta per quam penatibus fringilla magnis metus."},{"id":"4","title":"News 4","image":"https://picsum.photos/700","content":"Lorem ipsum dolor sit amet consectetur adipiscing elit in taciti suscipit gravida, felis congue ad tincidunt nec habitasse erat massa potenti purus, morbi ut iaculis eget sodales quis etiam condimentum nullam vulputate. Netus penatibus etiam ultrices neque nostra augue class tincidunt dapibus libero cum odio tempor habitant, eu praesent ligula lacinia egestas eros turpis donec luctus nullam aliquet nibh orci. Hendrerit euismod massa blandit sagittis aptent mi imperdiet dictumst dui curabitur, nascetur nunc potenti vestibulum diam luctus class purus felis, phasellus primis porta per quam penatibus fringilla magnis metus."}]}')
+;// CONCATENATED MODULE: ./src/data/articles.json
+var articles_namespaceObject = JSON.parse('{"a":[{"id":"1","title":"Article 1","image":"https://picsum.photos/700","content":"Lorem ipsum dolor sit amet consectetur adipiscing elit in taciti suscipit gravida, felis congue ad tincidunt nec habitasse erat massa potenti purus, morbi ut iaculis eget sodales quis etiam condimentum nullam vulputate. Netus penatibus etiam ultrices neque nostra augue class tincidunt dapibus libero cum odio tempor habitant, eu praesent ligula lacinia egestas eros turpis donec luctus nullam aliquet nibh orci. Hendrerit euismod massa blandit sagittis aptent mi imperdiet dictumst dui curabitur, nascetur nunc potenti vestibulum diam luctus class purus felis, phasellus primis porta per quam penatibus fringilla magnis metus."},{"id":"2","title":"Article 2","image":"https://picsum.photos/700","content":"Lorem ipsum dolor sit amet consectetur adipiscing elit in taciti suscipit gravida, felis congue ad tincidunt nec habitasse erat massa potenti purus, morbi ut iaculis eget sodales quis etiam condimentum nullam vulputate. Netus penatibus etiam ultrices neque nostra augue class tincidunt dapibus libero cum odio tempor habitant, eu praesent ligula lacinia egestas eros turpis donec luctus nullam aliquet nibh orci. Hendrerit euismod massa blandit sagittis aptent mi imperdiet dictumst dui curabitur, nascetur nunc potenti vestibulum diam luctus class purus felis, phasellus primis porta per quam penatibus fringilla magnis metus."},{"id":"3","title":"Article 3","image":"https://picsum.photos/700","content":"Lorem ipsum dolor sit amet consectetur adipiscing elit in taciti suscipit gravida, felis congue ad tincidunt nec habitasse erat massa potenti purus, morbi ut iaculis eget sodales quis etiam condimentum nullam vulputate. Netus penatibus etiam ultrices neque nostra augue class tincidunt dapibus libero cum odio tempor habitant, eu praesent ligula lacinia egestas eros turpis donec luctus nullam aliquet nibh orci. Hendrerit euismod massa blandit sagittis aptent mi imperdiet dictumst dui curabitur, nascetur nunc potenti vestibulum diam luctus class purus felis, phasellus primis porta per quam penatibus fringilla magnis metus."},{"id":"4","title":"Article 4","image":"https://picsum.photos/700","content":"Lorem ipsum dolor sit amet consectetur adipiscing elit in taciti suscipit gravida, felis congue ad tincidunt nec habitasse erat massa potenti purus, morbi ut iaculis eget sodales quis etiam condimentum nullam vulputate. Netus penatibus etiam ultrices neque nostra augue class tincidunt dapibus libero cum odio tempor habitant, eu praesent ligula lacinia egestas eros turpis donec luctus nullam aliquet nibh orci. Hendrerit euismod massa blandit sagittis aptent mi imperdiet dictumst dui curabitur, nascetur nunc potenti vestibulum diam luctus class purus felis, phasellus primis porta per quam penatibus fringilla magnis metus."}]}')
+;// CONCATENATED MODULE: ./src/screens/HomeScreen.tsx
+
+
+
+
+
+
+
+
+
+
+var showNotImplementedAlert = function() {
+    return react_native_index_js_.Alert.alert('Not implemented yet');
+};
+var renderUpcoming = function(param) {
+    var item = param.item;
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(index_tsx_.Card, {
+        mode: "contained",
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Card.Title, {
+                titleVariant: "titleMedium",
+                subtitleVariant: "bodyMedium",
+                title: "".concat(item.title, " • ").concat(item.provider),
+                subtitle: "".concat(item.date, " ").concat(item.time),
+                left: function(props) {
+                    return /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Avatar.Icon, (0,_object_spread_props._)((0,_object_spread._)({}, props), {
+                        icon: "calendar"
+                    }));
+                }
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)(index_tsx_.Card.Actions, {
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Button, {
+                        mode: "text",
+                        onPress: showNotImplementedAlert,
+                        children: "Cancel"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Button, {
+                        mode: "contained",
+                        onPress: showNotImplementedAlert,
+                        children: "Edit"
+                    })
+                ]
+            })
+        ]
+    });
+};
+var renderProduct = function(param) {
+    var item = param.item, index = param.index;
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(index_tsx_.Card, {
+        mode: "contained",
+        style: styles.cardWidth,
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Card.Cover, {
+                source: {
+                    uri: "".concat(item.image, "?").concat(index)
+                }
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)(index_tsx_.Card.Content, {
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Title, {
+                        children: "".concat(item.name, " • $").concat(item.price)
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Paragraph, {
+                        numberOfLines: 1,
+                        children: item.description
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)(index_tsx_.Card.Actions, {
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Button, {
+                        onPress: showNotImplementedAlert,
+                        children: "Delete"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Button, {
+                        onPress: showNotImplementedAlert,
+                        children: "Edit"
+                    })
+                ]
+            })
+        ]
+    });
+};
+var renderArticle = function(param) {
+    var item = param.item, index = param.index;
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(index_tsx_.Card, {
+        mode: "contained",
+        style: styles.cardWidth,
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Card.Cover, {
+                source: {
+                    uri: "".concat(item.image, "?").concat(index)
+                }
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)(index_tsx_.Card.Content, {
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Title, {
+                        children: item.title
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Paragraph, {
+                        numberOfLines: 3,
+                        children: item.content
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)(index_tsx_.Card.Actions, {
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Button, {
+                        onPress: showNotImplementedAlert,
+                        children: "Delete"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Button, {
+                        onPress: showNotImplementedAlert,
+                        children: "Edit"
+                    })
+                ]
+            })
+        ]
+    });
+};
+var renderDivider = function() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Divider, {
+        style: styles.divider
+    });
+};
+var HomeScreen = function() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(react_native_index_js_.ScrollView, {
+        style: styles.container,
+        contentInsetAdjustmentBehavior: "automatic",
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)(react_native_index_js_.View, {
+                style: styles.header,
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Text, {
+                        variant: "titleLarge",
+                        style: styles.headerTitle,
+                        children: "My Appointments"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Button, {
+                        mode: "contained-tonal",
+                        onPress: showNotImplementedAlert,
+                        children: "Manage"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(react_native_index_js_.FlatList, {
+                horizontal: true,
+                showsHorizontalScrollIndicator: false,
+                data: bookings_namespaceObject.a,
+                renderItem: renderUpcoming,
+                ItemSeparatorComponent: renderDivider,
+                contentContainerStyle: styles.contentContainer
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)(react_native_index_js_.View, {
+                style: styles.header,
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Text, {
+                        variant: "titleLarge",
+                        style: styles.headerTitle,
+                        children: "My Products"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Button, {
+                        mode: "contained-tonal",
+                        onPress: showNotImplementedAlert,
+                        children: "Manage"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(react_native_index_js_.FlatList, {
+                horizontal: true,
+                showsHorizontalScrollIndicator: false,
+                data: products_namespaceObject.a,
+                renderItem: renderProduct,
+                ItemSeparatorComponent: renderDivider,
+                contentContainerStyle: styles.contentContainer
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)(react_native_index_js_.View, {
+                style: styles.header,
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Text, {
+                        variant: "titleLarge",
+                        style: styles.headerTitle,
+                        children: "My News"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Button, {
+                        mode: "contained-tonal",
+                        onPress: showNotImplementedAlert,
+                        children: "Manage"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(react_native_index_js_.FlatList, {
+                horizontal: true,
+                showsHorizontalScrollIndicator: false,
+                data: news_namespaceObject.a,
+                renderItem: renderArticle,
+                ItemSeparatorComponent: renderDivider,
+                contentContainerStyle: styles.contentContainer
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsxs)(react_native_index_js_.View, {
+                style: styles.header,
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Text, {
+                        variant: "titleLarge",
+                        style: styles.headerTitle,
+                        children: "My Articles"
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Button, {
+                        mode: "contained-tonal",
+                        onPress: showNotImplementedAlert,
+                        children: "Manage"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(react_native_index_js_.FlatList, {
+                horizontal: true,
+                showsHorizontalScrollIndicator: false,
+                data: articles_namespaceObject.a,
+                renderItem: renderArticle,
+                ItemSeparatorComponent: renderDivider,
+                contentContainerStyle: styles.contentContainer
+            })
+        ]
+    });
+};
+var styles = react_native_index_js_.StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#fff'
+    },
+    contentContainer: {
+        paddingHorizontal: 16
+    },
+    divider: {
+        backgroundColor: 'transparent',
+        width: 16
+    },
+    header: {
+        padding: 16,
+        flexDirection: 'row',
+        alignItems: 'center'
+    },
+    headerTitle: {
+        flex: 1
+    },
+    cardWidth: {
+        width: 270
+    }
+});
+/* ESM default export */ var screens_HomeScreen = (HomeScreen);
+
+;// CONCATENATED MODULE: ./src/components/NavBar.tsx
+
+
+
+var NavBar_NavBar = function(param) {
+    var navigation = param.navigation, back = param.back, route = param.route, options = param.options;
+    var _options_title;
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(index_tsx_.Appbar.Header, {
+        elevated: true,
+        style: {
+            backgroundColor: index_tsx_.MD3Colors.primary95
+        },
+        children: [
+            back ? /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Appbar.BackAction, {
+                onPress: navigation.goBack
+            }) : null,
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Appbar.Content, {
+                title: (_options_title = options.title) !== null && _options_title !== void 0 ? _options_title : route.name
+            })
+        ]
+    });
+};
+/* ESM default export */ var NavBar = (NavBar_NavBar);
+
+;// CONCATENATED MODULE: ./src/navigation/HomeNavigator.tsx
+
+
+
+
+
+var Home = (0,commonjs_index_js_.createNativeStackNavigator)();
+var HomeNavigator_HomeNavigator = function() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Home.Navigator, {
+        screenOptions: {
+            header: NavBar,
+            title: 'Dashboard'
+        },
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Home.Screen, {
+            name: "Home",
+            component: screens_HomeScreen
+        })
+    });
+};
+/* ESM default export */ var HomeNavigator = (HomeNavigator_HomeNavigator);
+
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@swc+helpers@0.5.13/node_modules/@swc/helpers/cjs/_define_property.cjs
+var _define_property = __webpack_require__("11649");
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@swc+helpers@0.5.13/node_modules/@swc/helpers/cjs/_sliced_to_array.cjs
+var _sliced_to_array = __webpack_require__("38097");
+// EXTERNAL MODULE: ../../node_modules/.pnpm/react-native-calendars@1.1291.1_react-native@0.76.3_@babel+core@7.26.0_@babel+preset-env@7.26_4q65gki7nfwgmgtkkm5rqn34hq/node_modules/react-native-calendars/src/index.ts
+var src = __webpack_require__("71749");
+;// CONCATENATED MODULE: ./src/screens/CalendarScreen.tsx
+
+
+
+
+
+
+
+
+
+
+var INITIAL_DATE = src.CalendarUtils.getCalendarDateString(new Date());
+var renderAppointment = function(param) {
+    var item = param.item;
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.List.Item, {
+        title: "".concat(item.title, " • ").concat(item.provider),
+        description: "".concat(item.date, " ").concat(item.time),
+        left: function(props) {
+            return /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.List.Icon, (0,_object_spread_props._)((0,_object_spread._)({}, props), {
+                icon: "calendar"
+            }));
+        }
+    });
+};
+var CalendarScreen_CalendarScreen = function() {
+    var _useState = (0,_sliced_to_array._)((0,index_js_.useState)(INITIAL_DATE), 2), selected = _useState[0], setSelected = _useState[1];
+    var marked = (0,index_js_.useMemo)(function() {
+        var _obj;
+        return _obj = {}, (0,_define_property._)(_obj, selected, {
+            selected: true,
+            disableTouchEvent: true
+        }), (0,_define_property._)(_obj, INITIAL_DATE, {
+            selected: true,
+            selectedColor: index_tsx_.MD3Colors.primary50
+        }), _obj;
+    }, [
+        selected
+    ]);
+    var onDayPress = (0,index_js_.useCallback)(function(day) {
+        setSelected(day.dateString);
+    }, []);
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(react_native_index_js_.View, {
+        style: CalendarScreen_styles.container,
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(src.CalendarList, {
+                horizontal: true,
+                pagingEnabled: true,
+                hideExtraDays: false,
+                current: INITIAL_DATE,
+                markedDates: marked,
+                onDayPress: onDayPress,
+                theme: {
+                    backgroundColor: 'black',
+                    textSectionTitleColor: 'black',
+                    dayTextColor: 'black',
+                    monthTextColor: 'black',
+                    indicatorColor: 'black',
+                    selectedDayBackgroundColor: index_tsx_.MD3Colors.secondary50
+                }
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(react_native_index_js_.FlatList, {
+                data: bookings_namespaceObject.a,
+                renderItem: renderAppointment
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.FAB, {
+                icon: "plus",
+                color: index_tsx_.MD3Colors.primary50,
+                style: CalendarScreen_styles.fab,
+                onPress: function() {}
+            })
+        ]
+    });
+};
+var CalendarScreen_styles = react_native_index_js_.StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#fff'
+    },
+    fab: {
+        position: 'absolute',
+        right: 0,
+        margin: 16,
+        bottom: 0
+    }
+});
+/* ESM default export */ var CalendarScreen = (CalendarScreen_CalendarScreen);
+
+;// CONCATENATED MODULE: ./src/navigation/CalendarNavigator.tsx
+
+
+
+
+
+var Calendar = (0,commonjs_index_js_.createNativeStackNavigator)();
+var CalendarNavigator_CalendarNavigator = function() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Calendar.Navigator, {
+        screenOptions: {
+            header: NavBar
+        },
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Calendar.Screen, {
+            name: "Calendar",
+            component: CalendarScreen
+        })
+    });
+};
+/* ESM default export */ var CalendarNavigator = (CalendarNavigator_CalendarNavigator);
+
+;// CONCATENATED MODULE: ./src/components/ScreenPlaceholder.tsx
+
+
+
+
+var ScreenPlaceholder_ScreenPlaceholder = function() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(react_native_index_js_.View, {
+        style: ScreenPlaceholder_styles.container,
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(index_tsx_.Text, {
+            style: ScreenPlaceholder_styles.title,
+            children: "Not implemented yet"
+        })
+    });
+};
+var ScreenPlaceholder_styles = react_native_index_js_.StyleSheet.create({
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    title: {
+        fontSize: 24
+    }
+});
+/* ESM default export */ var ScreenPlaceholder = (ScreenPlaceholder_ScreenPlaceholder);
+
+;// CONCATENATED MODULE: ./src/screens/StatisticsScreen.tsx
+
+
+
+var StatisticsScreen_StatisticsScreen = function() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(ScreenPlaceholder, {});
+};
+/* ESM default export */ var StatisticsScreen = (StatisticsScreen_StatisticsScreen);
+
+;// CONCATENATED MODULE: ./src/navigation/StatisticsNavigator.tsx
+
+
+
+
+
+var Statistics = (0,commonjs_index_js_.createNativeStackNavigator)();
+var StatisticsNavigator = function() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Statistics.Navigator, {
+        screenOptions: {
+            header: NavBar
+        },
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Statistics.Screen, {
+            name: "Statistics",
+            component: StatisticsScreen
+        })
+    });
+};
+/* ESM default export */ var navigation_StatisticsNavigator = (StatisticsNavigator);
+
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@swc+helpers@0.5.13/node_modules/@swc/helpers/cjs/_call_super.cjs
+var _call_super = __webpack_require__("71995");
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@swc+helpers@0.5.13/node_modules/@swc/helpers/cjs/_class_call_check.cjs
+var _class_call_check = __webpack_require__("14723");
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@swc+helpers@0.5.13/node_modules/@swc/helpers/cjs/_create_class.cjs
+var _create_class = __webpack_require__("67379");
+// EXTERNAL MODULE: ../../node_modules/.pnpm/@swc+helpers@0.5.13/node_modules/@swc/helpers/cjs/_inherits.cjs
+var _inherits = __webpack_require__("92985");
+;// CONCATENATED MODULE: ./src/components/ErrorBoundary.tsx
+
+
+
+
+
+
+
+
+
+
+var ErrorBoundary_ErrorBoundary = /*#__PURE__*/ function(_React_Component) {
+    "use strict";
+    (0,_inherits._)(ErrorBoundary, _React_Component);
+    function ErrorBoundary(props) {
+        (0,_class_call_check._)(this, ErrorBoundary);
+        var _this;
+        _this = (0,_call_super._)(this, ErrorBoundary, [
+            props
+        ]), (0,_define_property._)(_this, "name", void 0);
+        _this.name = props.name;
+        _this.state = {
+            hasError: false
+        };
+        return _this;
+    }
+    (0,_create_class._)(ErrorBoundary, [
+        {
+            key: "componentDidCatch",
+            value: function componentDidCatch(error, errorInfo) {
+                console.log(error, errorInfo);
+            }
+        },
+        {
+            key: "render",
+            value: function render() {
+                if (this.state.hasError) {
+                    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(react_native_index_js_.SafeAreaView, {
+                        style: ErrorBoundary_styles.container,
+                        children: [
+                            /*#__PURE__*/ (0,jsx_runtime.jsx)((MaterialCommunityIcons_default()), {
+                                size: 96,
+                                color: index_tsx_.MD3Colors.primary20,
+                                name: "alert-octagon"
+                            }),
+                            /*#__PURE__*/ (0,jsx_runtime.jsx)(react_native_index_js_.Text, {
+                                style: ErrorBoundary_styles.text,
+                                children: "Failed to load ".concat(this.name)
+                            })
+                        ]
+                    });
+                }
+                return this.props.children;
+            }
+        }
+    ], [
+        {
+            key: "getDerivedStateFromError",
+            value: function getDerivedStateFromError() {
+                return {
+                    hasError: true
+                };
+            }
+        }
+    ]);
+    return ErrorBoundary;
+}((index_js_default()).Component);
+var ErrorBoundary_styles = react_native_index_js_.StyleSheet.create({
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    text: {
+        fontSize: 24,
+        color: index_tsx_.MD3Colors.primary20,
+        textAlign: 'center'
+    }
+});
+/* ESM default export */ var components_ErrorBoundary = (ErrorBoundary_ErrorBoundary);
+
+;// CONCATENATED MODULE: ./src/components/Placeholder.tsx
+
+
+
+
+
+var Placeholder = function(param) {
+    var label = param.label, icon = param.icon;
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(react_native_index_js_.SafeAreaView, {
+        style: Placeholder_styles.container,
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsx)((MaterialCommunityIcons_default()), {
+                size: 96,
+                color: index_tsx_.MD3Colors.primary20,
+                name: icon
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(react_native_index_js_.Text, {
+                style: Placeholder_styles.text,
+                children: label
+            })
+        ]
+    });
+};
+var Placeholder_styles = react_native_index_js_.StyleSheet.create({
+    container: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    text: {
+        fontSize: 24,
+        color: index_tsx_.MD3Colors.primary20
+    }
+});
+/* ESM default export */ var components_Placeholder = (Placeholder);
+
+;// CONCATENATED MODULE: ./src/screens/AccountScreen.tsx
+
+
+
+
+var Account = /*#__PURE__*/ index_js_default().lazy(function() {
+    return __webpack_require__.e(/* import() */ "webpack_container_remote_auth_AccountScreen").then(__webpack_require__.t.bind(__webpack_require__, 4847, 23));
+});
+var AccountScreen_AccountScreen = function() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(components_ErrorBoundary, {
+        name: "AccountScreen",
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)((index_js_default()).Suspense, {
+            fallback: /*#__PURE__*/ (0,jsx_runtime.jsx)(components_Placeholder, {
+                label: "Account",
+                icon: "account"
+            }),
+            children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Account, {})
+        })
+    });
+};
+/* ESM default export */ var AccountScreen = (AccountScreen_AccountScreen);
+
+;// CONCATENATED MODULE: ./src/navigation/AccountNavigator.tsx
+
+
+
+
+
+var AccountNavigator_Account = (0,commonjs_index_js_.createNativeStackNavigator)();
+var AccountNavigator_AccountNavigator = function() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(AccountNavigator_Account.Navigator, {
+        screenOptions: {
+            header: NavBar
+        },
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(AccountNavigator_Account.Screen, {
+            name: "Account",
+            component: AccountScreen
+        })
+    });
+};
+/* ESM default export */ var AccountNavigator = (AccountNavigator_AccountNavigator);
+
+;// CONCATENATED MODULE: ./src/navigation/TabsNavigator.tsx
+
+
+
+
+
+
+
+
+
+var homeIcon = MaterialCommunityIcons_default().getImageSourceSync('home', 24);
+var calendarIcon = MaterialCommunityIcons_default().getImageSourceSync('calendar', 24);
+var chartBoxIcon = MaterialCommunityIcons_default().getImageSourceSync('chart-box', 24);
+var accountIcon = MaterialCommunityIcons_default().getImageSourceSync('account', 24);
+var Tabs = (0,lib_commonjs_index_js_.createNativeBottomTabNavigator)();
+var TabsNavigator_TabsNavigator = function() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsxs)(Tabs.Navigator, {
+        translucent: false,
+        tabBarActiveTintColor: index_tsx_.MD3Colors.primary50,
+        barTintColor: index_tsx_.MD3Colors.primary95,
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(Tabs.Screen, {
+                name: "HomeNavigator",
+                component: HomeNavigator,
+                options: {
+                    title: 'Home',
+                    tabBarIcon: function() {
+                        return homeIcon;
+                    }
+                }
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(Tabs.Screen, {
+                name: "CalendarNavigator",
+                component: CalendarNavigator,
+                options: {
+                    title: 'Calendar',
+                    tabBarIcon: function() {
+                        return calendarIcon;
+                    }
+                }
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(Tabs.Screen, {
+                name: "StatisticsNavigator",
+                component: navigation_StatisticsNavigator,
+                options: {
+                    title: 'Statistics',
+                    tabBarIcon: function() {
+                        return chartBoxIcon;
+                    }
+                }
+            }),
+            /*#__PURE__*/ (0,jsx_runtime.jsx)(Tabs.Screen, {
+                name: "AccountNavigator",
+                component: AccountNavigator,
+                options: {
+                    title: 'Account',
+                    tabBarIcon: function() {
+                        return accountIcon;
+                    }
+                }
+            })
+        ]
+    });
+};
+/* ESM default export */ var TabsNavigator = (TabsNavigator_TabsNavigator);
+
+;// CONCATENATED MODULE: ./src/navigation/MainNavigator.tsx
+
+
+
+
+var Main = (0,commonjs_index_js_.createNativeStackNavigator)();
+var MainNavigator_MainNavigator = function() {
+    return /*#__PURE__*/ (0,jsx_runtime.jsx)(Main.Navigator, {
+        screenOptions: {
+            headerShown: false
+        },
+        children: /*#__PURE__*/ (0,jsx_runtime.jsx)(Main.Screen, {
+            name: "Tabs",
+            component: TabsNavigator
+        })
+    });
+};
+/* ESM default export */ var MainNavigator = (MainNavigator_MainNavigator);
+
+
+}),
+
+}]);//# sourceMappingURL=__federation_expose_App.chunk.bundle.map?platform=android
