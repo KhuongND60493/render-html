@@ -861,8 +861,8 @@
         }
       },
       "usedIn": [
-        "./App",
-        "./UpcomingScreen"
+        "./UpcomingScreen",
+        "./App"
       ]
     }
   ],

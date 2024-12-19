@@ -26,6 +26,25 @@
   },
   "shared": [
     {
+      "id": "host:@bottom-tabs/react-navigation",
+      "name": "@bottom-tabs/react-navigation",
+      "version": "0.7.6",
+      "singleton": true,
+      "requiredVersion": "^0.7.6",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "host:@react-native-async-storage/async-storage",
       "name": "@react-native-async-storage/async-storage",
       "version": "2.0.0",
@@ -141,6 +160,25 @@
       "version": "7.0.13",
       "singleton": true,
       "requiredVersion": "^7.0.13",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "host:react-native-bottom-tabs",
+      "name": "react-native-bottom-tabs",
+      "version": "0.7.6",
+      "singleton": true,
+      "requiredVersion": "^0.7.6",
       "assets": {
         "js": {
           "async": [],

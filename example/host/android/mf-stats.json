@@ -26,6 +26,28 @@
   "shared": [
     {
       "singleton": true,
+      "requiredVersion": "^0.7.6",
+      "shareScope": "default",
+      "name": "@bottom-tabs/react-navigation",
+      "version": "0.7.6",
+      "eager": false,
+      "id": "host:@bottom-tabs/react-navigation",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
       "requiredVersion": "^2.0.0",
       "shareScope": "default",
       "name": "@react-native-async-storage/async-storage",
@@ -152,6 +174,28 @@
       "version": "7.0.13",
       "eager": false,
       "id": "host:@react-navigation/native",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.7.6",
+      "shareScope": "default",
+      "name": "react-native-bottom-tabs",
+      "version": "0.7.6",
+      "eager": false,
+      "id": "host:react-native-bottom-tabs",
       "assets": {
         "js": {
           "async": [],

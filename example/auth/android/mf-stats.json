@@ -160,8 +160,8 @@
         }
       },
       "usedIn": [
-        "./SignInScreen",
-        "./AccountScreen"
+        "./AccountScreen",
+        "./SignInScreen"
       ]
     },
     {
@@ -502,8 +502,8 @@
         }
       },
       "usedIn": [
-        "./SignInScreen",
-        "./AccountScreen"
+        "./AccountScreen",
+        "./SignInScreen"
       ]
     },
     {
@@ -527,9 +527,9 @@
         }
       },
       "usedIn": [
-        "./SignInScreen",
+        "./AccountScreen",
         "./AuthProvider",
-        "./AccountScreen"
+        "./SignInScreen"
       ]
     }
   ],
