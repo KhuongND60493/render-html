@@ -1,6 +1,7 @@
 {
-  "versionName":"3.0",
-  "versionCode": "3",
-  "apkUrl":"https://raw.githubusercontent.com/khuongnd60493/render-html/master/example/app-release-3.0-6.apk",
-  "forceUpdate": false
+  "versionName": "3.6.10",
+  "versionCode": "144",
+  "apkUrl": "https://drive.usercontent.google.com/download?id=1sDwTVFnjujy7V6YCtdAqtmIZ9pj6a8cE&export=download&authuser=0&confirm=t&uuid=ae8ae9e5-dea3-4ebf-b55f-ea4e12cfe4d9&at=AEz70l7ffPPc730ESgucORdFspgM%3A1740636823070",
+  "forceUpdate": true,
+  "versionCodeIOS": "13"
 }
